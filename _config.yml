@@ -1,6 +1,6 @@
-title: Fred Hohman
-tagline: Research Scientist at Apple
-url: http://fredhohman.com
+title: Mathis Derenne
+tagline: Data Science Student
+url: https://mathisdrn.github.io/main/
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +14,9 @@ sass:
   style: compressed
 
 author:
-  name: Fred Hohman
-  url: http://fredhohman.com
-  email: fred.hohman@gmail.com
+  name: Mathis Derenne
+  url: https://mathisdrn.github.io/main/
+  email: mathis.derenne@gmail.com
 
 markdown: kramdown
 highlighter: rouge

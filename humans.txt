@@ -1,7 +1,6 @@
 /* TEAM */
-	Author: Fred Hohman
-	Twitter: @fredhohman
-	Location: Seattle, United States
+	Author: Mathis Derenne
+	Location: Angers, France
 
 /* SITE */
     Language: English

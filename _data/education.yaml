@@ -1,42 +1,21 @@
-- degree: "Ph.D. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  advisor: Duen Horng (Polo) Chau
-  co-advisor: Alex Endert
-  years: "Aug. 2015 —"
-  years-extra: "Dec. 2020"
-  thesis: "Interactive Scalable Interfaces for Machine Learning Interpretability"
-  thesis-video: https://youtu.be/TNH8RqyNfmo
-  thesis-link: ../dissertation/
-  thesis-pdf: ../papers/fred-hohman-thesis.pdf
-  committee:
-    - Duen Horng (Polo) Chau
-    - Alex Endert
-    - Chao Zhang
-    - Nathan Hodas
-    - Scott Davidoff
-    - Steven Drucker
-  institution-url: https://www.gatech.edu/
-  awards:
-    - ACM SIGCHI Outstanding Dissertation Award
-    - Georgia Tech College of Computing Dissertation Award
-
-- degree: "M.S. in Computational Science & Engineering"
-  institution: Georgia Institute of Technology
-  location: "Atlanta, GA"
-  years: May 2018
-  institution-url: https://www.gatech.edu/
+- degree: "Licence MIASHS - Parcours Sciences des données et Ingénierie du numérique"
+  years: "Mai 2024"
+  # years-extra: "May 2015"
+  institution: Université de Rennes
+  institution-url: https://www.univ-rennes.fr/
+  location: "Rennes, France"
   description:
-    - "GPA: 4.00/4.00"
+    - "<b>Mathématiques :</b> analyse, algèbre, optimisation, modèle linéaire"
+    - "<b>Statistiques :</b> statistiques inférentielles, probabilités, tests statistiques"
+    - "<b>Informatique :</b> SQL, Python, R, machine learning (TensorFlow)"
+    - "<b>Économie :</b> micro-économie, macro-économie, marché financier, économétrie"
+  thesis: "Impact of Head Coach replacement on Team Performance"
+  thesis-link: "https://mathisdrn.github.io/head_coach_dismissal/"
+  thesis-pdf: "https://raw.githubusercontent.com/mathisdrn/head_coach_dismissal/master/exports/head_coach_dismissal.pdf"
 
-- degree: "B.S. in Mathematics, B.S. in Physics"
-  years: "Aug. 2011 —"
-  years-extra: "May 2015"
-  institution: University of Georgia
-  location: "Athens, GA"
-  thesis: "3D Printing the Trefoil Knot and its Pages"
-  thesis-link: ../projects/3d-printing-the-trefoil-knot-and-its-pages/
-  thesis-pdf: ../papers/fred-hohman-undergrad-thesis.pdf
-  description: 
-    - "Overall GPA: 3.84/4.00, Magna Cum Laude, Area of Emphasis in Applied Mathematics"
-  institution-url: https://www.uga.edu/
+- degree: "Baccalauréat Scientifique - Section Science de l'Ingénieur"
+  years: "2020"
+  institution: Lycée Chevrollier
+  location: "Angers, France"
+  description:
+    - "Mention AB"

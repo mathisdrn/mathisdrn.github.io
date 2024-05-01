@@ -3,6 +3,11 @@ Fred Hohman:
   picture: fred-hohman.jpg
   me: true
 
+Mathis Derenne:
+  url: mathisdrn.github.io
+  picture: mathis-derenne.png
+  me: false
+
 Duen Horng (Polo) Chau:
   url: https://www.cc.gatech.edu/~dchau
   picture: polo-chau.jpg
@@ -375,4 +380,3 @@ Alan Leung:
 Jeffrey Nichols:
   url: http://www.jeffreynichols.com/
   picture: jeffrey-nichols.jpg
-  

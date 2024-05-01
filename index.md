@@ -8,8 +8,8 @@ title: Home
 		<div id="intro-image-wrapper">
 			<img id="intro-image" src="/images/portrait.jpg"></div>
 		<div id="intro-title-text-wrapper">
-			<h1 id="intro-title">Hi, I'm Fred Hohman</h1>
-			<div id="intro-subtitle">I'm a Research Scientist at Apple</div>
+			<h1 id="intro-title">Hi, I'm Mathis Derenne</h1>
+			<div id="intro-subtitle">I'm a Data Science Student</div>
 			<div id="intro-title-socials">
 				{% for link in site.data.social-links %}
 					{% if link.on-homepage == true %}
@@ -40,22 +40,6 @@ title: Home
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title">Featured <a href="/cv/#publications">Research Publications</a></h2>
-
-<p class="feature-text">
-	Latest research for fans of human-computer interaction, data visualization, and machine learning.
-</p>
-
-<div class="cover-wrapper cover-wrapper-3-col l-page">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
-	{% for feature in sortedPublications %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<br>
 <h2 class="feature-title">Featured <a href="/dissertation">Dissertation Publications</a></h2>
 
 <p class="feature-text">
@@ -111,22 +95,6 @@ title: Home
 	{% assign feature = ia[0] %}
 	{% include feature.html feature=feature %}
 </div>
-
-<br>
-<h2 class="feature-title"><a href="https://parametric.press/about">Parametric Press</a></h2>
-
-<p class="feature-text">
-	A born-digital, experimental magazine dedicated to showcasing the expository power of the web.
-</p>
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% assign parametric = site.data.articles | where: "parametric-issue", true %}
-	{% for feature in parametric %}
-		{% include feature.html feature=feature %}
-	{% endfor %}
-</div>
-
-
 
 [gt]: http://www.gatech.edu "Georgia Tech"
 [cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"

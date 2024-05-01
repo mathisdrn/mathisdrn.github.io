@@ -1,19 +1,19 @@
 {
-  "name": "fredhohman.github.io",
+  "name": "mathisdrn.github.io",
   "version": "1.0.0",
-  "description": "Fred Hohman's website.",
+  "description": "Mathis Derenne's website.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fredhohman/fredhohman.github.io.git"
+    "url": "git+https://github.com/mathisdrn/mathisdrn.github.io.git"
   },
-  "author": "Fred Hohman",
+  "author": "Mathis Derenne",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fredhohman/fredhohman.github.io/issues"
+    "url": "https://github.com/mathisdrn/mathisdrn.github.io/issues"
   },
-  "homepage": "https://github.com/fredhohman/fredhohman.github.io#readme"
+  "homepage": "https://github.com/mathisdrn/mathisdrn.github.io#readme"
 }

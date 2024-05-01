@@ -93,10 +93,20 @@ $cv-icon-aspect-ratio: 1.33;
 	color: $text-color;
 }
 
+// .intro-logo {
+// 	display: inline;
+// 	width: 21px;
+// 	vertical-align: middle;
+// }
+
 .intro-logo {
-	display: inline;
-	width: 21px;
-	vertical-align: middle;
+    display: inline-block;
+    height: 0.8em;
+	padding-bottom: 0.1em;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+    width: auto;
+    vertical-align: middle;
 }
 
 .home-hr {

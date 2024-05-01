@@ -23,15 +23,13 @@
 	
 {% if degree.description %}
 	<div class="cv-description">
-		{% for item in degree.description %}
-			{{ item | raw }}<br>
-		{% endfor %}
+		{{ degree.description | raw }}
 	</div>
 {% endif %}
 
 {% if degree.thesis %}
 	<div class="cv-description">
-		Projet de recherche: <a href="{{ degree.thesis-link }}"><i>{{ degree.thesis }}</i></a>
+		<b>Projet de recherche</b> : <a href="{{ degree.thesis-link }}"><i>{{ degree.thesis }}</i></a>
 	</div>
 {% endif %}
 

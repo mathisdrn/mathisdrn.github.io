@@ -4,11 +4,11 @@
   institution: Université de Rennes
   institution-url: https://www.univ-rennes.fr/
   location: "Rennes, France"
-  description:
-    - "<b>Mathématiques :</b> analyse, algèbre, optimisation, modèle linéaire"
-    - "<b>Statistiques :</b> statistiques inférentielles, probabilités, tests statistiques"
-    - "<b>Informatique :</b> SQL, Python, R, machine learning (TensorFlow)"
-    - "<b>Économie :</b> micro-économie, macro-économie, marché financier, économétrie"
+  description: |
+    <b>Mathématiques</b> : analyse, algèbre, optimisation, modèle linéaire <br>
+    <b>Statistiques</b> : statistiques inférentielles, probabilités, tests statistiques <br>
+    <b>Informatique</b> : SQL, Python, R, machine learning (TensorFlow) <br>
+    <b>Économie</b> : micro-économie, macro-économie, marché financier, économétrie <br>
   thesis: "Impact of Head Coach replacement on Team Performance"
   thesis-link: "https://mathisdrn.github.io/head_coach_dismissal/"
   thesis-pdf: "https://raw.githubusercontent.com/mathisdrn/head_coach_dismissal/master/exports/head_coach_dismissal.pdf"
@@ -17,5 +17,4 @@
   years: "2020"
   institution: Lycée Chevrollier
   location: "Angers, France"
-  description:
-    - "Mention AB"
+  description: Mention AB

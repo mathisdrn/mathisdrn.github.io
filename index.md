@@ -22,8 +22,8 @@ title: Home
 	<!-- <hr class="l-middle home-hr"> -->
 	<div id="everything-else" class="l-middle">
 		<a href="{{ site.url }}/cv"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
-		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
-		<a href="{{ site.url }}/everything-else"><div><i class="fa fa-list-ul icon icon-right-space"></i>Everything Else</div></a>
+		<a href="{{ site.url }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projets</div></a>
+		<a href="{{ site.url }}/about-me"><div><i class="fa fa-user icon icon-right-space"></i>About me</div></a>
 	</div>
 	<div>
 		I design and develop interactive interfaces to help people <b>understand machine learning models</b> and data-driven systems. Besides building tools, I also create <b>data visualizations</b> and write interactive articles to simply communicate complex ideas.
@@ -40,46 +40,10 @@ title: Home
 
 <hr class="l-middle home-hr">
 
-<h2 class="feature-title">Featured <a href="/dissertation">Dissertation Publications</a></h2>
+<h2 class="feature-title">Compétences</h2>
 
 <p class="feature-text">
-	My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
-</p>
-
-<div class="cover-wrapper cover-wrapper-1-col l-text">
-	{% include dissertation/document.html details=false location=home %}
-</div>
-
-<div class="cover-wrapper cover-wrapper-3-col l-page">
-	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
-	{% for feature in sortedPublications %}
-		{% if feature.dissertation == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<br>
-<h2 class="feature-title">Apple <a href="https://developer.apple.com/design/human-interface-guidelines/">Chart Design Guidelines</a></h2>
-
-<p class="feature-text">
-	Guidance and best practices to help designers and developers create the best charts for Apple platforms.
-</p>
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% for feature in site.data.designs %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<br>
-<h2 class="feature-title">Featured <a href="/cv/#interactive-articles">Interactive Articles</a></h2>
-
-<p class="feature-text">
-	Enhanced reading experiences that demonstrate what's possible when dynamic media are effectively combined.
- 
+	Liste des compétences acquises au cours de mes années de licence et de projets personnels.
 </p>
 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
@@ -96,12 +60,34 @@ title: Home
 	{% include feature.html feature=feature %}
 </div>
 
-[gt]: http://www.gatech.edu "Georgia Tech"
-[cse]: http://cse.gatech.edu "Georgia Tech Computational Science and Engineering"
-[coc]: http://www.cc.gatech.edu "Georgia Tech College of Computing"
+<div class="cover-wrapper cover-wrapper-3-col l-page">
+	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
+	{% for feature in sortedPublications %}
+		{% if feature.dissertation == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<br>
+
+<h2 class="feature-title">Projets personnel et académiques</h2>
+
+<p class="feature-text">
+	Liste des projets réalisés au cours de mes années de licence et de projets personnels.
+</p>
+
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% for feature in site.data.designs %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<div class="cover-wrapper cover-wrapper-1-col l-text"> 
+	{% include dissertation/document.html details=false location=home %}
+</div> 
+
 
 [cv]: {{ site.url }}/cv
-[polo]: http://www.cc.gatech.edu/~dchau/ "Polo Chau"
-[alex]: http://va.gatech.edu/endert/ "Alex Endert"
-[poloclub]: http://poloclub.gatech.edu "Polo Club of Data Science"
-[nstrf]: https://www.nasa.gov/strg/nstrf "NASA Space Technology Research Fellowship"

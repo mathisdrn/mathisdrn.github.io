@@ -13,13 +13,13 @@ jsarr:
 <div class="cv-spacer"></div>
 
 <div>
-I design and develop interactive interfaces to help people <b><span class="cv-ai">understand machine learning</span></b> models and data-driven systems. Besides building tools, I also create data visualizations and write interactive articles to simply communicate complex ideas.
+Autodidacte et passionné depuis jeune par l’informatique.
 </div>
 
 <div class="cv-spacer"></div>
 
 <div>
-I have collaborated with researchers, designers, developers, and artists while working at Apple, Microsoft Research, NASA Jet Propulsion Lab, and Pacific Northwest National Lab.
+Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation"> Master MIASHS</a> de l’Université de Lyon. Cette formation a pour but de me donner les compétences clés pour exercer à l’avenir un métier dans le domaine de la data (BigData, Machine Learning, Analyste, Data Engineer). <br>
 </div>
 
 <div class="cv-spacer"></div>
@@ -66,23 +66,6 @@ I have collaborated with researchers, designers, developers, and artists while w
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
-
-## References
-
-{% for reference in site.data.references %}
-{% include cv/reference.html reference=reference %}
-{% endfor %}
-
-
-## Contact
-
-Fred Hohman  
-`fredhohman@gatech.edu`  
-CODA Tech Square  
-Georgia Tech  
-756 W Peachtree St NW  
-Atlanta, GA 30308
-
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 

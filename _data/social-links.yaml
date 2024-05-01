@@ -22,10 +22,10 @@
   on-homepage: true
 
 - id: home
-  description: "fredhohman.com"
+  description: "mathisdrn.github.io"
   color: "#515151"
   class: "fas fa-home icon"
-  url: "https://fredhohman.com"
+  url: "mathisdrn.github.io"
   on-homepage: false
   cv-group: 1
 

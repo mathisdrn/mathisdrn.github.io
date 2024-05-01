@@ -1,12 +1,12 @@
 Fred Hohman:
   url: https://fredhohman.com
   picture: fred-hohman.jpg
-  me: true
+  me: false
 
 Mathis Derenne:
-  url: mathisdrn.github.io
+  url: https://mathisdrn.github.io
   picture: mathis-derenne.png
-  me: false
+  me: true
 
 Duen Horng (Polo) Chau:
   url: https://www.cc.gatech.edu/~dchau

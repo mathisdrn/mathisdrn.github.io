@@ -6,13 +6,9 @@ permalink: projects/
 
 Things I do, including research, academic course projects, and miscellaneous interests.
 
-## PhD Dissertation
+## Projets personnels et académiques
 
 My dissertation contributed interactive interfaces to enable machine learning interpretability at scale and for everyone.
-
-<div class="cover-wrapper cover-wrapper-1-col l-text">
-	{% include dissertation/document.html details=false location=home %}
-</div>
 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
 	{% assign sortedPublications = site.categories.papers | sort: 'feature-order' %}
@@ -108,16 +104,6 @@ A born-digital, experimental magazine dedicated to showcasing the expository pow
 
 <div class="project-spacer-small"></div>
 
-## Undergraduate Thesis
-
-[3D Printing the Trefoil Knot and its Pages][trefoil] <small style="color: #c0c0c0">2015</small>
-
-<div class="project-spacer-small"></div>
-
-## REU
-
-[Math & Computational Science REU][reu] <small style="color: #c0c0c0">2014</small>
-
 ## Course Projects
 
 <ul>
@@ -145,7 +131,3 @@ A born-digital, experimental magazine dedicated to showcasing the expository pow
 <li><a href="{{ site.url }}/projects/raspberry-pi-case">Raspberry Pi Case</a> <small style="color: #c0c0c0">2013</small></li>
 <li><a href="{{ site.url }}/projects/road-bike-restoration">Road Bike Restoration</a> <small style="color: #c0c0c0">2012</small></li>
 </ul>
-
-[trefoil]: {{ site.url }}/projects/3d-printing-the-trefoil-knot-and-its-pages "3D Printing the Trefoil Knot and its Pages"
-[reu]: {{ site.url }}/projects/mathematics-&-computational-science-reu "Mathematics & Computational Science REU"
-

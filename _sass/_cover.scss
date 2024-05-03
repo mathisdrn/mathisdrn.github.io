@@ -21,7 +21,6 @@ $cover-width: 8.5px;
 
 .cover {
   height: $cover-height*$cover-size-scalar;
-  // width: $cover-width*$cover-size-scalar;
   
   text-align: left;
   display: flex;
@@ -60,6 +59,17 @@ $cover-width: 8.5px;
   color: $title-color;
 }
 
+.cover-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cover-icon {
+  height: 2.5rem;
+  width: auto;
+}
+
 .cover-top a:hover{
   text-decoration: none !important;
 }
@@ -78,6 +88,7 @@ $cover-width: 8.5px;
   justify-content: space-between; 
 }
 
+
 .cover-venue, .cover-year, .cover-links {
   font-size: 0.75rem;
 }
@@ -87,7 +98,6 @@ $cover-width: 8.5px;
 }
 
 .cover-venue {
-  // font-style: italic;
   font-weight: 500;
   color: $black-60;
 }

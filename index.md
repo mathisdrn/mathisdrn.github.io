@@ -43,6 +43,30 @@ title: Home
 </p>
 
 <div class="cover-wrapper cover-wrapper-3-col l-page">
+	{% for skill in site.data.skills %}
+		{% include skill.html skill=skill %}
+	{% endfor %}
+</div>
+
+<h2 class="feature-title">Projets personnel et académiques</h2>
+
+<p class="feature-text">
+	Liste des projets réalisés au cours de mes années de licence et de projets personnels.
+</p>
+
+<div class="cover-wrapper cover-wrapper-2-col l-middle">
+	{% for feature in site.data.designs %}
+		{% if feature.featured == true %}
+			{% include feature.html feature=feature %}
+		{% endif %}
+	{% endfor %}
+</div>
+
+<div class="cover-wrapper cover-wrapper-1-col l-text"> 
+	{% include dissertation/document.html details=false location=home %}
+</div> 
+
+<div class="cover-wrapper cover-wrapper-3-col l-page">
 	{% assign sortedArticles = site.data.articles | where: "featured", true %}
 	{% assign ia = site.categories.papers | where:"permalink", "papers/interactive-articles" %}
 
@@ -67,23 +91,6 @@ title: Home
 
 <br>
 
-<h2 class="feature-title">Projets personnel et académiques</h2>
-
-<p class="feature-text">
-	Liste des projets réalisés au cours de mes années de licence et de projets personnels.
-</p>
-
-<div class="cover-wrapper cover-wrapper-2-col l-middle">
-	{% for feature in site.data.designs %}
-		{% if feature.featured == true %}
-			{% include feature.html feature=feature %}
-		{% endif %}
-	{% endfor %}
-</div>
-
-<div class="cover-wrapper cover-wrapper-1-col l-text"> 
-	{% include dissertation/document.html details=false location=home %}
-</div> 
 
 
 [cv]: {{ site.url }}/cv

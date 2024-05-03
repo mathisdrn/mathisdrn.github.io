@@ -1,43 +1,84 @@
-- name: OS
-  items:
-    - Mac OS X
-    - Ubuntu
-    - Unix Command Line
-    - Windows
-
-- name: Programming
-  items:
-    - Python
-    - Matlab
-    - Mathematica
-    - C
-
-- name: Web and Writing
-  items: 
-    - HTML
-    - CSS
-    - JavaScript
-    - D3
-    - SQL
-    - Bootstrap
-    - LaTeX
-    - Markdown
-    - Jekyll
-    - Git
-- name: Graphics
-  items: 
-  - Affinity Designer
-  - Pixelmator
-  - Matplotlib
-  - Blender
-  - Keynote
-  - Meshlab
-  - MakerBot Desktop  
-
-- name: HCI
-  items:
-  - Contextual Inquiry
-  - Think-Alouds
-  - User Personas
-  - Rapid Paper Prototyping
-  - Affinity Diagraming
+- name: Python
+  svg_path: /images/skills/python.svg
+  subtitle: I know Python
+  description: |
+    Specifically ...
+    programmation orienté objet
+    visualisation : Matplotlib, Vega-Altair
+    reporting / documenting : Streamlit, Dash, Scrapy, Selenium, Matplotlib
+    ipywidgets, papermill, nbconvert
+- name: R
+  svg_path: /images/skills/r.svg
+  subtitle: I know R
+  description: |
+    Tidyverse
+# Golang : interface, gestion des erreurs 
+- name: Golang
+  svg_path: /images/skills/go.svg
+  subtitle: I know Golang
+  description: |
+    Specifically ...
+    interface, gestion des erreurs
+# PowerBI 
+- name: PowerBI
+  svg_path: /images/skills/powerbi.svg
+  subtitle: I know PowerBI
+  description: |
+    Specifically ...
+    Power Query, DAX, M, Power Automate
+# SQL : MySQL, PostgreSQL, SQLite, SQL Server
+- name: SQL
+  svg_path: /images/skills/sql.svg
+  subtitle: I know SQL
+  description: |
+    Specifically ...
+    MySQL, PostgreSQL, SQLite, SQL Server
+# Machine Learning : Scikit-Learn, TensorFlow (regression, classification, clustering, forecasting)
+- name: Machine Learning
+  img_path: /images/skills/ml.png
+  subtitle: I know Machine Learning
+  description: |
+    Specifically ...
+    Scikit-Learn, TensorFlow (regression, classification, clustering, forecasting)
+# Git : VSC, Bonne Pratique (environnement, codespace, linter), Docker, GitHub Action
+- name: Git
+  svg_path: /images/skills/git.svg
+  subtitle: I know Git
+  description: |
+    Specifically ...
+    VSC, Bonne Pratique (environnement, codespace, linter), Docker, GitHub Action
+# Documents : Latex, MyST
+- name: Documents
+  svg_path: /images/skills/latex.svg
+  subtitle: I know Documents
+  description: |
+    Specifically ...
+    Latex, MyST
+# Web dev : HTML, CSS, JS, PHP, Déploiement, serveur NGINX, mise en place d'Analytic
+- name: Web dev
+  svg_path: /images/skills/html.svg
+  subtitle: I know Web dev
+  description: |
+    Specifically ...
+    HTML, CSS, JS, PHP, Déploiement, serveur NGINX, mise en place d'Analytic
+# Excel : 
+- name: Excel
+  svg_path: /images/skills/excel.svg
+  subtitle: I know Excel
+  description: |
+    Specifically ...
+    Fonction pivot, etc.
+# Statistiques : Statistiques inférentielles, tests statistiques, implémentation du PSM
+- name: Statistiques
+  svg_path: /images/skills/stats.svg
+  subtitle: I know Statistiques
+  description: |
+    Specifically ...
+    Statistiques inférentielles, tests statistiques, implémentation du PSM
+# Anglais : 1 an vécu en Inde, compétence professionnel
+- name: Anglais
+  svg_path: /images/skills/english.svg
+  subtitle: I know English
+  description: |
+    Specifically ...
+    1 an vécu en Inde, compétence professionnel

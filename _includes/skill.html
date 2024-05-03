@@ -1,0 +1,24 @@
+<div class="cover">
+    <div class="cover-inner">
+        <div class="cover-top">
+			<div class="cover-header">	
+				<div class="cover-title"> {{ skill.name }} </div>
+
+				<div class="cover-icon"> 
+					{% if skill.svg_path %}
+						<img src="{{ skill.svg_path }}" class="cover-icon">
+					{% endif %}
+					{% if skill.img_path %}
+						<img src="{{ skill.img_path }}" class="cover-icon">
+					{% endif %}
+				</div>
+			</div>
+			<br>
+            <div class="cover-subtitle">
+				{{ skill.subtitle }}
+				{{ skill.description | raw }}
+			</div>
+			
+        </div>
+    </div>
+</div>

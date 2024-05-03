@@ -6,7 +6,7 @@ title: Home
 <div id="intro-wrapper" class="l-text">
 	<div id="intro-title-wrapper">
 		<div id="intro-image-wrapper">
-			<img id="intro-image" src="/images/portrait.png"></div>
+			<img id="intro-image" src="{{ site.baseurl }}/images/portrait.png"></div>
 		<div id="intro-title-text-wrapper">
 			<h1 id="intro-title">Hi, I'm Mathis Derenne</h1>
 			<div id="intro-subtitle">I'm a Data Science Student</div>
@@ -32,7 +32,7 @@ title: Home
 	<div style="height: 1rem"></div>
 	
 	<div>
-		Je suis diplômé d'une Licence de mathématiques et informatique appliqués de l'Université de Rennes. J'ai eu l'opportunité d'effectuer un stage au sein de <img class="intro-logo" src="/images/auto1.svg"> en tant que Data Analyst et au sein de <img class="intro-logo" src="/images/cgi.svg"> en tant qu'Ingénieur Logiciel.
+		Je suis diplômé d'une Licence de mathématiques et informatique appliqués de l'Université de Rennes. J'ai eu l'opportunité d'effectuer un stage au sein de <img class="intro-logo" src="{{ site.baseurl }}/images/auto1.svg"> en tant que Data Analyst et au sein de <img class="intro-logo" src="{{ site.baseurl }}/images/cgi.svg"> en tant qu'Ingénieur Logiciel.
 	</div>
 </div>
 

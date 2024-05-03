@@ -1,153 +1,53 @@
-# feature-parametric-order: 1000 = inf
-
-- title: "Menstrual Cycle Length and Variability: A Visual Explanation"
+- title: "Renouvellement de l'entraîneur sportif et performances de l'équipe"
   authors:
-    - Samantha Robertson
-    - Halden Lin
-    - Fred Hohman
-  description: "Visualizing the Apple Women's Health Study"
-  month: "Sept."
-  year: 2023
-  url: https://awhs-updates.hsph.harvard.edu/cycle-length-variability/
+    - Mathis Derenne
+  description: "Projet de recherche : Analyse des relations entre l'entraîneur chef et la performance d'une équipe"
+  month: "Avril"
+  year: 2024
+  url: https://mathisdrn.github.io/head_coach_dismissal/
+  code: https://github.com/mathisdrn/head_coach_dismissal/
+  pdf: https://raw.githubusercontent.com/mathisdrn/head_coach_dismissal/master/exports/head_coach_dismissal.pdf
   image: /images/featured/awhs.png
-  feature-title: "Menstrual Cycle Length and Variability: A Visual Explanation"
-  feature-description: Visualizing the Apple Women's Health Study
   featured: true
-  parametric: false
-  feature-parametric-order: 1000
 
-- title: Awesome Mathematical Notation Design
+- title: "Prédiction de la valeur des crypto-monnaies"
   authors:
-    - Fred Hohman
-  description: List of links of techniques to help augment mathematical notation
-  month: "June"
+    - Mathis Derenne
+  description: "Projet né de ma participation au Rennes Data Challenge 2024. J'ai continué par la suite à ajouter et améliorer les modèles existants (auto-encoder, LSTM, VARMAX, SARIMAX)."
+  month: "Février"
+  year: 2024
+  code: https://github.com/mathisdrn/rennesdatachallenge2024
+  image: /images/featured/awhs.png
+  featured: true
+  # award: "Sélection pour la finale du RennesDataChallenge2024"
+
+- title: "Cursus"
+  authors:
+    - Mathis Derenne
+  description: "Base de données collaborative recensant des vidéos YouTube sur des thématiques (économie, politique, philosophie)."
+  month: 
+  year: 2019
+  url: https://github.com/mathisdrn/cursus/
+  code: https://github.com/mathisdrn/cursus/
+  image: /images/featured/awhs.png
+  featured: true
+
+- title: "Fuel Consumption App"
+  authors:
+    - Mathis Derenne
+  description: "Tableau de bord interactif et outils de prédiction des émissions et consommation de voitures selon leurs caractéristiques"
+  month: "Septembre"
   year: 2022
-  url: https://fredhohman.com/awesome-mathematical-notation-design/
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: "Apple Machine Learning Research Articles"
-  description: "Interactively explore advancements in machine learning research at Apple"
-  image: /images/featured/apple.png
-  year: "May 2021 — Present"
-  feature-title: Machine Learning Research Articles
-  feature-description: Interactively explore advancements in machine learning research at Apple
-  feature-order: 1
-  url: https://machinelearning.apple.com/research?page=1&type=article
+  url: https://github.com/mathisdrn/Fuel-Consumption-App
+  code: https://github.com/mathisdrn/Fuel-Consumption-App
+  image: /images/featured/awhs.png
   featured: true
-  parametric-issue: false
-  parametric: false
-  feature-parametric-order: 1000
-  apple: true
 
-- title: "Parametric Press, Issue 02: The Climate Issue"
+- title: "RIMO : outil d'anonymisation de données dans le cadre du RGPD"
   authors:
-    - Matthew Conlen
-    - Fred Hohman
-    - Sara Stalla
-    - Andrew Sass
-  description: "Interactively analyze our climate’s past, present, and future"
-  month: "Oct"
-  year: "2020"
-  # year-extra: "Dec. 2018"
-  url: https://parametric.press/issue-02/
-  code: https://github.com/ParametricPress
-  image: /images/featured/parametric-press-issue-02.png
-  feature-title: "Parametric Press: Issue 02"
-  feature-description: "Interactively analyze and learn about our climate’s past, present, and future"
-  feature-order: 2
-  featured: false
-  parametric-issue: true
-  parametric-issue-number: 2
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: "Parametric Press, Issue 01: Science + Society"
-  authors:
-    - Matthew Conlen
-    - Fred Hohman
-    - Sara Stalla
-    - Victoria Uren
-    - Andrew Sass
-  description: "Examine scientific and technological phenomena that stand to shape society at large"
-  month: "May"
-  year: "2019"
-  # year-extra: "Dec. 2018"
-  url: https://parametric.press/issue-01/
-  code: https://github.com/ParametricPress
-  image: /images/featured/parametric-press-issue-01.png
-  award: "Top of Hacker News, twice"
-  feature-title: "Parametric Press: Issue 01"
-  feature-description: "Examine scientific and technological phenomena that stand to shape society at large"
-  feature-order: 3
-  featured: false
-  parametric-issue: true
-  parametric-issue-number: 1
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: Blueberry Pancakes
-  authors:
-    - Caleb Robinson
-    - Fred Hohman
-  description: A toy algorithms problem
-  month: "Nov."
-  year: 2018
-  url: https://idyll.pub/post/blueberry-pancakes-28b1a2e1a8986c44ac091f08
-  image: /images/featured/blueberry-pancakes.png
-  feature-title: Blueberry Pancakes
-  feature-description: A breakfast-themed toy algorithms problem
-  code: https://github.com/fredhohman/blueberry-pancakes
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: "The Beginner's Guide to Dimensionality Reduction"
-  authors: 
-    - Matthew Conlen
-    - Fred Hohman
-  description: "Explore the methods data scientists use to visualize high-dimensional data"
-  month: July
-  year: 2018
-  url: https://idyll.pub/post/dimensionality-reduction-293e465c2a3443e8941b016d
-  award: VISxAI Best Paper, Honorable Mention
-  image: /images/featured/dimensionality-reduction.png
-  feature-title: Dimensionality Reduction
-  feature-description: "Explore the methods data scientists use to visualize high-dimensional data"
-  code: https://github.com/mathisonian/dimensionality-reduction
-  slides: /slides/18-dr-visxai-slides.pdf
-  feature-order: 4
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: The Math of Card Shuffling
-  authors:
-    - Fred Hohman
-  description: "Riffling from factory order to complete randomness"
-  month: June
-  year: 2018
-  url: https://fredhohman.com/card-shuffling 
-  award: Top of Hacker News, twice
-  image: /images/featured/card-shuffling.png
-  feature-title: The Math of Card Shuffling
-  feature-description: Riffling from factory order to complete randomness
-  code: https://github.com/fredhohman/card-shuffling
-  featured: false
-  parametric: false
-  feature-parametric-order: 1000
-
-- title: A Viz of Ice and Fire
-  authors:
-    - Fred Hohman
-    - Sandeep Soni
-    - Ian Stewart
-    - John Stasko
-  description: "Exploring and visualizing Game of Thrones using color and dialogue"
-  month: "Oct."
-  year: 2017
-  url: https://fredhohman.com/a-viz-of-ice-and-fire/
-  code: https://github.com/fredhohman/a-viz-of-ice-and-fire
-  parametric: false
-  feature-parametric-order: 1000
+    - Mathis Derenne
+  description: "Développement d'un outil en Golang. Intégration à la suite LINO-PIMO dans le cadre de l'anonymisation et du respect du RGPD."
+  month: "Août"
+  year: 2023
+  url: https://github.com/CGI-FR/RIMO
+  code: https://github.com/CGI-FR/RIMO

@@ -1,84 +1,100 @@
 - name: Python
   svg_path: /images/skills/python.svg
-  subtitle: I know Python
-  description: |
-    Specifically ...
-    programmation orienté objet
-    visualisation : Matplotlib, Vega-Altair
-    reporting / documenting : Streamlit, Dash, Scrapy, Selenium, Matplotlib
-    ipywidgets, papermill, nbconvert
+  subtitle: |
+    J'ai utilisé Python au travers de nombreux projets
+  description:
+    - "Classes : héritage, polymorphisme, injection de dépendances"
+    - "Décorateur, générateur, Regex, tests unitaires"
+    - "Web Scraping : <code>Scrapy</code>, <code>Selenium</code>"
+    - "Data Processing : <code>Numpy</code>, <code>Pandas</code>, <code>Polars</code>"
+    - "Data Visualisation : <code>Matplotlib</code>, <code>Vega-Altair</code>"
+    - "Reporting : <code>papermill</code>, <code>nbconvert</code>"
+    - "Web Data App : <code>Streamlit</code>, <code>ipywidgets</code>"
 - name: R
   svg_path: /images/skills/r.svg
-  subtitle: I know R
-  description: |
-    Tidyverse
+  subtitle: Apprentissage de R dans le cadre de ma Licence
+  description:
+    - "Data Visualisation : <code>ggplot2</code>, <code>plotly</code>"
+    - "Production de documents: paramétrables et automatisés au format Rmarkdown"
+    - "Data Processing : <code>dplyr</code>, <code>purr</code>, <code>stringr </code>, <code>forcats</code>"
 # Golang : interface, gestion des erreurs 
 - name: Golang
   svg_path: /images/skills/go.svg
-  subtitle: I know Golang
-  description: |
-    Specifically ...
-    interface, gestion des erreurs
+  subtitle: Apprentissage et utilisation de Golang dans un environnement de production au cours de mon stage au sein de CGI
+  description:
+    - "Connaissances générales du langage et de son écosystème"
+    - "Interface, gestion des erreurs, injection de dépendances"
 # PowerBI 
 - name: PowerBI
   svg_path: /images/skills/powerbi.svg
-  subtitle: I know PowerBI
-  description: |
-    Specifically ...
-    Power Query, DAX, M, Power Automate
+  subtitle: 
+  description: 
+    - "Data Modeling - Star & Snowflake schema"
+    - "<code>DAX</code> et fonctions de Time Intelligence"
+    - "Manipulation de tables : jointures, pivots, aggrégations avec PowerQuery"
+    - "Construction de KPI's"
 # SQL : MySQL, PostgreSQL, SQLite, SQL Server
 - name: SQL
   svg_path: /images/skills/sql.svg
-  subtitle: I know SQL
-  description: |
-    Specifically ...
-    MySQL, PostgreSQL, SQLite, SQL Server
+  subtitle: 
+  description:
+    - "Manipulation de tables : aggrégations, jointures, pivots, tests conditionnels"
+    - "Window Functions"
+    - "Common Table Expressions (CTE) & Subqueries"
+    - "Création de vues & procédures stockées"
 # Machine Learning : Scikit-Learn, TensorFlow (regression, classification, clustering, forecasting)
 - name: Machine Learning
   img_path: /images/skills/ml.png
-  subtitle: I know Machine Learning
-  description: |
-    Specifically ...
-    Scikit-Learn, TensorFlow (regression, classification, clustering, forecasting)
+  subtitle: 
+  description:
+    - "Création d'une pipeline de traitement de données <code>Scikit-Learn</code> : données manquantes, outliers, encodage, normalisation, feature selection, feature engineering"
+    - "Problème de régression, classification, clustering : <code>Scikit-Learn</code> et <code>TensorFlow</code>"
+    - "Prédiction temporelle : VARMAX, SARIMAX, LSTM"
+    - "Gestion d'une pipeline complète de données : Sauvegarde, Reporting, Monitoring"
 # Git : VSC, Bonne Pratique (environnement, codespace, linter), Docker, GitHub Action
 - name: Git
   svg_path: /images/skills/git.svg
-  subtitle: I know Git
-  description: |
-    Specifically ...
-    VSC, Bonne Pratique (environnement, codespace, linter), Docker, GitHub Action
+  subtitle: Connaissance de Git et des bonnes pratiques de développement logiciel
+  description:
+    - "Utilisation de Git : commit, merge, stash, worktree, etc."
+    - "Bonne Pratique : environnement (docker, poetry), linter"
+    - "Intégration continue : suites de tests, GitHub Action"
 # Documents : Latex, MyST
 - name: Documents
   svg_path: /images/skills/latex.svg
-  subtitle: I know Documents
-  description: |
-    Specifically ...
-    Latex, MyST
+  subtitle: Écriture de documents professionnel ou académique
+  description:
+    - "Markdown : mon format de prise de notes au quotidien"
+    - "MyST : outil de communication scientifique à partir de fichier Markdown et de notebooks Jupyter"
+    - "Latex : rédaction de papier de recherche"
 # Web dev : HTML, CSS, JS, PHP, Déploiement, serveur NGINX, mise en place d'Analytic
-- name: Web dev
+- name: Développement Web
   svg_path: /images/skills/html.svg
-  subtitle: I know Web dev
-  description: |
-    Specifically ...
-    HTML, CSS, JS, PHP, Déploiement, serveur NGINX, mise en place d'Analytic
+  subtitle: Mes premiers pas dans l'informatique se sont fait au travers du développement web
+  description:
+    - "Front-End : HTML, CSS, JS (Polymer), Jekyll"
+    - "Back-End : PHP"
+    - "Déploiement : serveur NGINX et Apache, Google Analytics"
 # Excel : 
 - name: Excel
   svg_path: /images/skills/excel.svg
-  subtitle: I know Excel
-  description: |
-    Specifically ...
-    Fonction pivot, etc.
+  subtitle: Formation Coursera suivie sur les fonction avancés d'Excel
+  description: 
+    - "Tableau croisé dynamique"
+    - "Formules avancés"
+    - "Quelque connaissance en Macros VBA"
 # Statistiques : Statistiques inférentielles, tests statistiques, implémentation du PSM
 - name: Statistiques
   svg_path: /images/skills/stats.svg
-  subtitle: I know Statistiques
-  description: |
-    Specifically ...
-    Statistiques inférentielles, tests statistiques, implémentation du PSM
+  subtitle: Cours de statistiques suivis en Licence
+  description: 
+    - "Statistiques inférentielle : tests statistiques, intervalle de confiance, p-value"
+    - "Implémentation du Propensity Score Matching (PSM)"
 # Anglais : 1 an vécu en Inde, compétence professionnel
 - name: Anglais
   svg_path: /images/skills/english.svg
-  subtitle: I know English
-  description: |
-    Specifically ...
-    1 an vécu en Inde, compétence professionnel
+  subtitle: |
+    J'ai eu la chance de vivre une année scolaire en Inde. 
+    Cette année m'a permise de pratiquer l'anglais au quotidien avec ma famille d'accueil et mes camarades Indiens et internationaux. 
+    De plus, j'ai une bonne connaissances des termes techniques liés à l'informatique.
+  description: 

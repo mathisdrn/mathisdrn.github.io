@@ -1,7 +1,7 @@
 title: Mathis Derenne
 tagline: Data Science Student
+baseurl: "main"
 url: https://mathisdrn.github.io/main/
-baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
 

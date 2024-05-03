@@ -1,4 +1,4 @@
-<div class="cover">
+<div class="cover skill">
     <div class="cover-inner">
         <div class="cover-top">
 			<div class="cover-header">	
@@ -13,10 +13,16 @@
 					{% endif %}
 				</div>
 			</div>
-			<br>
-            <div class="cover-subtitle">
-				{{ skill.subtitle }}
-				{{ skill.description | raw }}
+            
+			<div class="cover-subtitle" style="padding-top: 0" style = "padding-bottom: 0;">
+			
+				<p>{{ skill.subtitle }}</p>
+				<ul>
+					{% for description in skill.description %}
+						<li>{{ description }}</li>
+					{% endfor %}
+				</ul>
+			
 			</div>
 			
         </div>

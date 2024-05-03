@@ -32,6 +32,17 @@ $cover-width: 8.5px;
   transition: all .2s ease-in-out;
 }
 
+.cover.skill {
+  min-height: 300px;
+  height: auto;
+}
+
+.cover.skill code {
+  padding: initial;
+  background-color: transparent;
+  border-radius : 0px;
+}
+
 .cover:hover {
   // border: 1px solid $dark-gray;
   text-decoration: none;
@@ -63,6 +74,8 @@ $cover-width: 8.5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .cover-icon {

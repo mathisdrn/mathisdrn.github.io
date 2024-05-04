@@ -3,6 +3,6 @@
 	Location: Angers, France
 
 /* SITE */
-    Language: English
+    Language: French
 	Standards: HTML5, CSS3
 	Software: Jekyll

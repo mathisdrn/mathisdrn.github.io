@@ -10,7 +10,7 @@
   image: /images/featured/awhs.png
   featured: true
 
-- title: "Prédiction de la valeur des crypto-monnaies"
+- title: "Prédiction de la valeur de crypto-monnaies"
   authors:
     - Mathis Derenne
   description: "Projet né de ma participation au Rennes Data Challenge 2024. J'ai continué par la suite à ajouter et améliorer les modèles existants (auto-encoder, LSTM, VARMAX, SARIMAX)."
@@ -19,7 +19,6 @@
   code: https://github.com/mathisdrn/rennesdatachallenge2024
   image: /images/featured/awhs.png
   featured: true
-  # award: "Sélection pour la finale du RennesDataChallenge2024"
 
 - title: "Cursus"
   authors:
@@ -40,9 +39,18 @@
   year: 2022
   url: https://github.com/mathisdrn/Fuel-Consumption-App
   code: https://github.com/mathisdrn/Fuel-Consumption-App
+  demo: https://mathisdrn-fuel-consumption-app---main-langb4.streamlit.app/
   image: /images/featured/awhs.png
   featured: true
 
+- title: "Création de mon site personnel"
+  authors:
+    - Mathis Derenne
+  description: "Base de données collaborative recensant des vidéos YouTube sur des thématiques (économie, politique, philosophie)."
+  month: "Mai"
+  year: 2024
+  url: https://github.com/mathisdrn/mathisdrn.github.io
+  
 - title: "RIMO : outil d'anonymisation de données dans le cadre du RGPD"
   authors:
     - Mathis Derenne

@@ -8,18 +8,13 @@ jsarr:
 
 <h1 id="cv-title"><a href="{{ site.url }}">Mathis Derenne</a></h1>
 
-<p id="cv-subtitle"><i>Data Science Student</i></p>
+<p id="cv-subtitle"><i>Étudiant en Data Science</i></p>
 
 <div class="cv-spacer"></div>
 
 <div>
-Autodidacte et passionné depuis jeune par l’informatique.
-</div>
-
-<div class="cv-spacer"></div>
-
-<div>
-Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation"> Master MIASHS</a> de l’Université de Lyon. Cette formation a pour but de me donner les compétences clés pour exercer à l’avenir un métier dans le domaine de la data (BigData, Machine Learning, Analyste, Data Engineer). <br>
+Futur étudiant du <a class = "cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation"> Master MIASHS</a> de l’Université de Lyon, je suis à la recherche d’une alternance de deux ans pour la rentrée 2024. Cette formation a pour but de me donner les compétences clés pour exercer à l’avenir un métier dans le domaine de la data.
+<br>
 </div>
 
 <div class="cv-spacer"></div>
@@ -43,7 +38,7 @@ Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-
 
 ***
 
-## Education
+## Formation
 
 {::nomarkdown}
 {% for degree in site.data.education %}
@@ -51,7 +46,7 @@ Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-
 {% endfor %}
 {:/}
 
-## Work Experience
+## Expérience Professionnelle
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'industry' %}
@@ -59,13 +54,20 @@ Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-
 {% endif %}
 {% endfor %}
 
-## Personal Experience
+## Expérience Personnelle
 
 {% for experience in site.data.experiences %}
 {% if experience.type == 'personal' %}
 {% include cv/experience.html experience=experience %}
 {% endif %}
 {% endfor %}
+
+## Langues
+
+<div>
+Anglais : Courant <br>
+Espagnol : Intermédiaire
+</div>
 
 [cv]: {{ site.url }}/cv.pdf "My CV."
 

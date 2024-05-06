@@ -1,23 +1,23 @@
 - institution: CGI
   location: "Nantes, France"
-  position: Stage Ingénieur logiciel
+  position: Ingénieur logiciel
   year: "Juin 2023 - Août 2023"
   description: "Développement de <a href='https://google.fr'>RIMO</a> : une solution data s’intégrant à la suite LINO-PIMO dans le cadre de l’anonymisation et du respect du RGDP"
   institution-url: https://www.cgi.com/france/fr-fr
   type: industry
 
-- institution: Auto1 GROUP GmbH.
+- institution: Auto1 GROUP
   location: "Berlin, Allemagne"
-  position: Business Analyst Intern
+  position: Business Analyst
   group: "Data Analytics"
   year: "Juin 202 - Juillet 2022"
   description: |
-    Création d’un <b>modèle de distribution</b> de coupons<br>
+    Développement d’un <b>modèle de distribution</b> de coupons<br>
     <ul>
-      <li>Analyse et développement de dashboard interactif</li>
-      <li>Prédiction de l’activité des marchands et usage des relations d’inférences causales</li>
-      <li>Création de KPI</li>
-      <li>Documentation, specs et présentation</li>
+      <li>Création d’un tableau de bord interactif</li>
+      <li>Prédiction de l’activité des marchands</li>
+      <li>Utilisation des relations d’inférences causales (PSM)</li>
+      <li>Documentation, spécification et présentation</li>
     </ul>
     Outils : Python, SQL, Scikit-Learn, Matplotlib<br>
   institution-url: https://cgi.com/fr/

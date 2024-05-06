@@ -3,7 +3,7 @@
   # years-extra: "May 2015"
   institution: Université de Rennes
   institution-url: https://www.univ-rennes.fr/
-  location: "Rennes, France"
+  location: "France"
   description: |
     <b>Mathématiques</b> : analyse, algèbre, optimisation, modèle linéaire <br>
     <b>Statistiques</b> : statistiques inférentielles, probabilités, tests statistiques <br>
@@ -13,7 +13,7 @@
   thesis-link: "https://mathisdrn.github.io/head_coach_dismissal/"
   thesis-pdf: "https://raw.githubusercontent.com/mathisdrn/head_coach_dismissal/master/exports/head_coach_dismissal.pdf"
 
-- degree: "Baccalauréat Scientifique - Section Science de l'Ingénieur"
+- degree: "Baccalauréat Scientifique - Spécialité Science de l'ingénieur"
   years: "2020"
   institution: Lycée Chevrollier
   location: "Angers, France"

@@ -62,7 +62,7 @@
 # Documents : Latex, MyST
 - name: Documents
   svg_path: /images/skills/latex.svg
-  subtitle: Écriture de documents professionnel ou académique
+  subtitle: Outils de production de documents professionnels ou académiques
   description:
     - "Markdown : mon format de prise de notes au quotidien"
     - "MyST : outil de communication scientifique à partir de fichier Markdown et de notebooks Jupyter"

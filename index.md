@@ -27,7 +27,7 @@ title: Home
 	</div>
 
 	<div>
-	Passionné par l'informatique depuis jeune, je m'intéresse désormais à la Data Science. Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation"> Master MIASHS</a> de l’Université de Lyon. </div>
+	Passionné par l'informatique depuis tout jeune, je m'intéresse désormais à la Data Science. Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation"> Master MIASHS</a> de l’Université de Lyon. </div>
 	
 	<div style="height: 1rem"></div>
 	

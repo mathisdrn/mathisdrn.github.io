@@ -60,7 +60,7 @@ title: Home
 
 <div class="cover-wrapper cover-wrapper-2-col l-middle">
     {% assign sortedArticles = site.data.articles | where: "featured", true %}
-    {% for feature in sortedArticles limit:2 %}
+    {% for feature in sortedArticles limit:4 %}
         {% include feature.html feature=feature %}
     {% endfor %}
 </div>

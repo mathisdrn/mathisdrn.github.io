@@ -7,7 +7,7 @@
   url: https://mathisdrn.github.io/head_coach_dismissal/
   code: https://github.com/mathisdrn/head_coach_dismissal/
   pdf: https://raw.githubusercontent.com/mathisdrn/head_coach_dismissal/master/exports/head_coach_dismissal.pdf
-  image: /images/featured/awhs.png
+  image: /images/featured/hc.png
   featured: true
 
 - title: "Prédiction de la valeur de crypto-monnaies"
@@ -16,19 +16,8 @@
   description: "Projet né de ma participation au Rennes Data Challenge 2024. J'ai continué par la suite à ajouter et améliorer les modèles existants (auto-encoder, LSTM, VARMAX, SARIMAX)."
   month: "Février"
   year: 2024
-  code: https://github.com/mathisdrn/rennesdatachallenge2024
-  image: /images/featured/awhs.png
-  featured: true
-
-- title: "Cursus"
-  authors:
-    - Mathis Derenne
-  description: "Base de données collaborative recensant des vidéos YouTube sur des thématiques (économie, politique, philosophie)."
-  month: 
-  year: 2019
-  url: https://github.com/mathisdrn/cursus/
-  code: https://github.com/mathisdrn/cursus/
-  image: /images/featured/awhs.png
+  url: https://github.com/mathisdrn/rennesdatachallenge2024
+  image: /images/featured/datachallenge.png
   featured: true
 
 - title: "Fuel Consumption App"
@@ -40,7 +29,7 @@
   url: https://github.com/mathisdrn/Fuel-Consumption-App
   code: https://github.com/mathisdrn/Fuel-Consumption-App
   demo: https://mathisdrn-fuel-consumption-app---main-langb4.streamlit.app/
-  image: /images/featured/awhs.png
+  image: /images/featured/fuelconsumption.png
   featured: true
 
 - title: "Création de mon site personnel"
@@ -59,3 +48,24 @@
   year: 2023
   url: https://github.com/CGI-FR/RIMO
   code: https://github.com/CGI-FR/RIMO
+
+- title: "Cursus"
+  authors:
+    - Mathis Derenne
+  description: "Base de données collaborative recensant des vidéos YouTube sur des thématiques (économie, politique, philosophie)."
+  month: 
+  year: 2019
+  url: https://github.com/mathisdrn/cursus/
+  code: https://github.com/mathisdrn/cursus/
+  image: /images/featured/cursus.png
+  featured: true
+
+- title: "ContactDB"
+  authors:
+    - Mathis Derenne
+  description: "ContactDB est un site web permettant à des groupes de se constituer et de garder à jour un carnet d'adresse commun."
+  month: 
+  year: 2017
+  url: https://github.com/mathisdrn/ContactDB/
+  code: https://github.com/mathisdrn/ContactDB/
+  featured: false

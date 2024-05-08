@@ -20,8 +20,8 @@ $cover-width: 8.5px;
 }
 
 .cover {
-  height: $cover-height*$cover-size-scalar;
-  
+  // height: $cover-height*$cover-size-scalar;
+  height: auto;
   text-align: left;
   display: flex;
   flex-direction: column;

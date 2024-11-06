@@ -27,13 +27,15 @@ title: Home
 	</div>
 
 	<div>
-	Passionné par l'informatique depuis tout jeune, je m'intéresse désormais à la Data Science. Je suis à la recherche d’une alternance afin d’intégrer le <a class = "cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation"> Master MIASHS</a> de l’Université de Lyon (<a class = "cv-blue-link" href="{{ site.baseurl }}/Calendrier_Master_MIASHS.pdf">calendrier d'alternance</a>).
+	Passionné par l'informatique depuis tout jeune, je m'intéresse désormais à la Data Science.
 	</div>
 	
 	<div style="height: 1rem"></div>
 	
 	<div>
-		Je suis diplômé d'une Licence de mathématiques et informatique appliqués de l'Université de Rennes. J'ai eu l'opportunité d'effectuer un stage au sein de <img class="intro-logo" src="{{ site.baseurl }}/images/auto1.svg"> en tant que Data Analyst et au sein de <img class="intro-logo" src="{{ site.baseurl }}/images/cgi.svg"> en tant qu'Ingénieur Logiciel.
+		Je réalise actuellement un <a class="cv-blue-link" href="https://www.univ-lyon2.fr/master-1-mathematiques-et-informatique-appliquees-aux-sciences-humaines-et-sociales-miashs#presentation">Master MIASHS</a> à l'Université de Lyon (<a class = "cv-blue-link" href="{{ site.baseurl }}/Calendrier_Master_MIASHS.pdf">calendrier d'alternance</a>). Au cours de ce Master j'effectue une alternance au sein de <a class="cv-blue-link" href="https://cospirit.com/">CoSpirit</a> avec des responsabilités variées en Data Science, principalement en Machine Learning et Data Engineering.
+
+		Avant ce master, j'ai obtenu une Licence MIASHS à l'Université de Rennes. J'ai eu l'opportunité d'effectuer un stage au sein de <img class="intro-logo" src="{{ site.baseurl }}/images/auto1.svg"> en tant que Data Analyst et au sein de <img class="intro-logo" src="{{ site.baseurl }}/images/cgi.svg"> en tant qu'Ingénieur Logiciel.
 	</div>
 </div>
 

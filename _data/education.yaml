@@ -1,3 +1,17 @@
+- degree: "Master MIASHS"
+  years: "Septembre 2024 - 2026"
+  # years-extra: "May 2015"
+  institution: Université de Lyon
+  institution-url: https://www.univ-lyon2.fr/
+  location: "France"
+  description: |
+    <b>Machine Learning</b> : méthodes d'apprentissages supervisés et non supervisés, traitement automatique du langage naturel, réduction de dimensionalité (PCA, SVM)<br>
+    <b>Statistiques</b> : méthode Bayesienne<br>
+    <b>Informatique</b> : Base de données avancée
+  # thesis: "Impact of Head Coach replacement on Team Performance"
+  # thesis-link: "https://mathisdrn.github.io/head_coach_dismissal/"
+  # thesis-pdf: "https://raw.githubusercontent.com/mathisdrn/head_coach_dismissal/master/exports/head_coach_dismissal.pdf"
+
 - degree: "Licence MIASHS - Parcours Sciences des données et Ingénierie du numérique"
   years: "Mai 2024"
   # years-extra: "May 2015"

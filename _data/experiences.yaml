@@ -1,3 +1,16 @@
+- institution: CoSpirit GROUPE
+  location: "Lyon, France"
+  position: Data Engineer & Scientist 
+  year: "Septembre 2024 - 2026"
+  description: "Responsabilités variées en Data Science <br>
+  <ul>
+    <li>Machine Learning : modèles de prédiction de prix, détection automatique d'anomalies sur des inspections de panneaux</li>
+    <li>Maintien et développement de flux ETL</li>
+    <li>Développement de tableau de bord sur PowerBI</li>
+  </ul>"
+  institution-url: https://www.cospirit.com/
+  type: industry
+
 - institution: CGI
   location: "Nantes, France"
   position: Ingénieur logiciel

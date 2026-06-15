@@ -1,8 +1,11 @@
 title: Mathis Derenne
 tagline: Data Science student personal website
+description: Personal website of Mathis Derenne, Data Science student.
+lang: en
 baseurl: 
 url: https://mathisdrn.github.io
 # gems: [jekyll-paginate]
+
 # paginate: 5
 
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -32,3 +35,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+
+exclude:
+  - astro
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+

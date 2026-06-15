@@ -1,0 +1,85 @@
+<div class="project-card" id="project-{{ article.index }}" data-tags="{{ article.tags | join: ',' }}" data-type="{{ article.type }}">
+
+	<div class="project-card__top">
+
+		<div class="project-card__header">
+			<div class="project-card__title-group">
+				<div class="project-card__title">
+					{% if article.url %}
+						<a href="{{ article.url }}">{{ article.title }}</a>
+					{% else %}
+						{{ article.title }}
+					{% endif %}
+				</div>
+				{% if article.subtitle %}
+					<div class="project-card__subtitle">{{ article.subtitle }}</div>
+				{% endif %}
+			</div>
+			<div class="project-card__meta">
+				<span class="project-card__year">{{ article.year }}</span>
+				<span class="project-card__type project-card__type--{{ article.type }}">
+					{% if article.type == 'professional' %}
+						<i class="fas fa-briefcase" aria-hidden="true"></i>
+					{% elsif article.type == 'academic' %}
+						<i class="fas fa-graduation-cap" aria-hidden="true"></i>
+					{% else %}
+						<i class="fas fa-user" aria-hidden="true"></i>
+					{% endif %}
+					{{ article.type }}
+				</span>
+			</div>
+		</div>
+
+		<div class="project-card__description" id="desc-{{ article.index }}">
+			{{ article.description | markdownify }}
+		</div>
+
+		{% if article.technologies.size > 0 %}
+		<div class="project-card__technologies">
+			{% for tech in article.technologies %}
+				<span class="project-card__tech-chip">{{ tech }}</span>
+			{% endfor %}
+		</div>
+		{% endif %}
+
+		{% if article.tags.size > 0 %}
+		<div class="project-card__tags">
+			{% for tag in article.tags %}
+				<span class="project-card__tag" data-tag="{{ tag }}">{{ tag }}</span>
+			{% endfor %}
+		</div>
+		{% endif %}
+
+	</div>
+
+	{% if article.url or article.demo or article.code or article.pdf %}
+	<div class="project-card__footer">
+		<div class="project-card__links">
+			{% if article.url %}
+			<a href="{{ article.url }}">
+				<i class="fas fa-link" aria-hidden="true"></i> Project
+			</a>
+			{% endif %}
+
+			{% if article.demo %}
+			<a href="{{ article.demo }}">
+				<i class="fas fa-play" aria-hidden="true"></i> Demo
+			</a>
+			{% endif %}
+
+			{% if article.code %}
+			<a href="{{ article.code }}">
+				<i class="fas fa-code" aria-hidden="true"></i> Code
+			</a>
+			{% endif %}
+
+			{% if article.pdf %}
+			<a href="{{ article.pdf }}">
+				<i class="fas fa-file-pdf" aria-hidden="true"></i> PDF
+			</a>
+			{% endif %}
+		</div>
+	</div>
+	{% endif %}
+
+</div>

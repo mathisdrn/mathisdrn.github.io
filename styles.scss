@@ -4,26 +4,26 @@
 ---
 
 
-@import "variables";
-@import "base";
-@import "layout";
-@import "type";
-@import "code";
-@import "syntax";
+@use "variables";
+@use "base";
+@use "layout";
+@use "type";
+@use "code";
+@use "syntax";
 
-@import "header";
-@import "footer";
-@import "message";
-@import "table";
-@import "buttons";
-@import "fieldset";
-@import "figure";
+@use "header";
+@use "footer";
+@use "message";
+@use "table";
+@use "buttons";
+@use "fieldset";
+@use "figure";
 
-@import "intro";
-@import "cover";
-@import "cv";
-@import "papers";
-@import "dissertation";
-@import "projects";
+@use "intro";
+@use "cover";
+@use "cv";
+@use "papers";
+@use "dissertation";
+@use "projects";
 
-@import "print";
+@use "print";

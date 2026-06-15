@@ -1,23 +1,26 @@
 ---
 layout: page
-title: À propos de moi
+title: About me
 permalink: about-me/
 ---
 
-#### Comment je me décrirai en quelques mots :
+I am a naturally curious and detail-oriented person who enjoys understanding how things work. I enjoy using an analytical mindset to tackle practical problems, and I always aim to make my final work as clear and accessible as possible. I also enjoy sharing knowledge with others.
 
-Je suis quelqu’un de naturellement curieux : je passe du temps à explorer de nouveau outils, langages et méthodes de machine learning. Aussi, je m’informe fréquemment de l’actualité technologique ([HN](https://news.ycombinator.com/)).
+### Why Data?
 
-J’ai la capacité d’apprendre rapidement et d’être autonome dans cette démarche. J’ai appris le développement web entre mes 13 et 16 ans (HTML, CSS, Javascript, PHP, SQL) et j’ai notamment développé [Cursus](https://github.com/mathisdrn/cursus) : une plateforme de vidéo collaborative.
+What attracts me to data is the opportunity to understand complex systems as a whole. I enjoy the technical side of building pipelines, but I also love analyzing the data to find the story behind the numbers.
 
-Enfin, je pense avoir le sens du détail et je propose souvent des approches créatives pour traiter des problématiques.
+Ultimately, my interests comes from connecting technical work to business context and delivering precise answers to meaningful questions.
 
-#### Ce que j'aime dans la Data Science :
+### What motivates me
 
-- La richesse des problématiques data : allier la compréhension du sujet d’étude à l’analyse des données afin de faire émerger un modèle explicatif convaincant.
-- La diversité des solutions : algorithmiques, statistiques ou issues du machine learning
+I thrive in environments where people are passionate about what they do, hold themselves to high standards, and continuously seek to improve.
 
-#### Ce qui me motive professionnellement :
+I enjoy tackling technical challenges that push me out of my comfort zone, learning new skills, and working alongside collaborative people who value both knowledge sharing and continuous growth.
 
-- Travailler dans un environnement stimulant et exigeant
-- Monter en compétences et de me développer professionnellement
+### Hobbies
+
+When I’m not at my desk, I like to stay active and try new things:
+- **🤝 Volunteering:** Volunteer listener at Nightline, a student-run helpline dedicated to mental health support.
+- **🏃‍♂️ Running & Hiking:** I enjoy clearing my mind and spending time outdoors.
+- **🏍️ Motorcycling:** I'm currently training for my motorcycle license.

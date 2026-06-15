@@ -4,3 +4,4 @@ _site/*
 images/pc
 .jekyll-cache/
 _drafts/
+astro/

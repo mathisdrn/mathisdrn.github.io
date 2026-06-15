@@ -1,3 +1,4 @@
+@use "variables" as *;
 $column-width: 3.5rem;
 
 // Base grid
@@ -8,6 +9,10 @@ main, header, footer {
 	justify-items: stretch;
 	grid-template-columns: [screen-start] 1fr [page-start kicker-start] minmax(min-content, $column-width) [middle-start] minmax(min-content, $column-width) [text-start kicker-end] repeat(8, minmax(min-content, $column-width)) [text-end gutter-start] minmax(min-content, $column-width) [middle-end] minmax(min-content, $column-width) [page-end gutter-end] 1fr [screen-end];
 	grid-column-gap: 1.5rem;
+}
+
+main {
+	align-content: start;
 }
 
 // Mobile grid

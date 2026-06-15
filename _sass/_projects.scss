@@ -34,6 +34,10 @@
   transition: all 0.15s ease;
   white-space: nowrap;
 
+  i {
+    margin-right: 0.3rem;
+  }
+
   &:hover {
     background-color: $black-05;
     color: $black-80;

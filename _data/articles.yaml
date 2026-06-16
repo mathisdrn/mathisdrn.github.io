@@ -11,7 +11,6 @@
     - DuckDB
     - Streamlit
   url: "https://github.com/mathisdrn/orca"
-  index: 1
 
 - title: "Orca Demo: Data Warehouse Implementation"
   description: "A local data warehouse and predictive ML demo featuring orchestration, ingestion, transformation and an interactive dashboards."
@@ -28,7 +27,6 @@
     - Streamlit
   code: "https://github.com/mathisdrn/orca-demo"
   demo: "https://orca-demo-zydyxtqewcsx82b9zddmwn.streamlit.app/"
-  index: 2
 
 - title: "Conformal Prediction"
   description: "Implementation and benchmarking of conformal prediction techniques across regression, classification, and survival analysis tasks."
@@ -44,7 +42,6 @@
     - lifelines
   code: "https://github.com/mathisdrn/conformal-prediction"
   demo: "https://mathisdrn.github.io/conformal-prediction/"
-  index: 3
 
 - title: "Billboard Rental Pricing Model"
   subtitle: "CoSpirit Groupe"
@@ -58,7 +55,30 @@
     - Python
     - polars
     - scikit-learn
-  index: 4
+
+- title: "Marketing Data Warehouse"
+  subtitle: "CoSpirit Groupe"
+  description: "Designed ELT pipelines and dimensional models to warehouse multi-channel marketing data. Developed Power BI datasets to enable cross-media performance analysis following dimensional modeling practices (fact, dims, star schema, SCD)."
+  year: 2026
+  type: professional
+  tags:
+    - data engineering
+  technologies:
+    - Microsoft SSIS
+    - SQL Server
+    - DAX
+
+- title: "Dashboards for Ads Campaigns"
+  subtitle: "CoSpirit Groupe"
+  description: "Designed and deployed over 20 interactive Power BI dashboards enabling media experts to optimize ad spend and clients to track their advertising campaigns."
+  year: 2026
+  type: professional
+  tags:
+    - data visualization
+  technologies:
+    - Power BI
+    - DAX
+    - PowerQuery
 
 - title: "Explainable AI Case Studies"
   description: "A collection of six case studies demonstrating model interpretability and explainability methods across tabular, vision, NLP, and graph domains."
@@ -74,7 +94,6 @@
     - Captum
   code: "https://github.com/mathisdrn/explainable-ai"
   demo: "https://mathisdrn.github.io/explainable-ai/"
-  index: 5
 
 - title: "Reinforcement Learning for Stochastic Inventory Management"
   description: "Formulation and resolution of a stochastic inventory control problem. Benchmarks Model-Based Dynamic Programming (**Value Iteration** via Bellman optimality) against Model-Free Reinforcement Learning (**REINFORCE Policy Gradient**) to compute optimal ordering policies."
@@ -87,7 +106,6 @@
     - NumPy
   code: "https://github.com/mathisdrn/reinforcement-learning"
   demo: "https://mathisdrn.github.io/reinforcement-learning/"
-  index: 6
 
 - title: "Natural Language Inference Modeling"
   description: "Development and evaluation of NLI models to predict semantic relationships between sentence pairs. Explores encoder fine-tuning (**CamemBERT** via **LoRA**), decoder fine-tuning (**Llama 3** via **LoRA**), and In-Context Learning techniques (**Chain-of-Thought**)."
@@ -104,7 +122,6 @@
     - LoRA
   code: "https://github.com/mathisdrn/nlp-representation-learning"
   demo: "https://mathisdrn.github.io/nlp-representation-learning/"
-  index: 7
 
 - title: "Federated Learning for Medical Diagnosis"
   description: "A distributed, privacy-preserving Federated Learning system designed for heart disease diagnosis. This project analyzes the impact of client data heterogeneity (**Non-IID** distributions) and benchmarks the stability and convergence of **FedAvg** against **FedProx** algorithms."
@@ -117,7 +134,6 @@
     - PyTorch
     - Fluke
   code: "https://github.com/mathisdrn/federated-learning"
-  index: 8
 
 - title: "Computer Vision Billboard Anomaly Classifier"
   subtitle: "CoSpirit Groupe"
@@ -131,7 +147,6 @@
     - Python
     - PyTorch
     - OpenCV
-  index: 9
 
 - title: "Non-Local Means Image Denoising"
   description: "Implementation and performance analysis of the Non-Local Means algorithm for solving image restoration inverse problems."
@@ -145,7 +160,6 @@
     - scikit-image
   code: "https://github.com/mathisdrn/inverse-problem"
   demo: "https://mathisdrn.github.io/inverse-problem/"
-  index: 10
 
 - title: "Rennes Data Challenge: Cryptocurrency Forecasting"
   description: "Developed time-series forecasting architectures to predict cryptocurrency price movements. Designed and benchmarked classical econometric models (**VARMAX**, **SARIMAX**) against machine learning methods (**XGBoost**) and deep learning structures (**LSTMs**, **Auto-encoders**)."
@@ -160,7 +174,6 @@
     - XGBoost
     - skforecast
   code: "https://github.com/mathisdrn/rennesdatachallenge2024"
-  index: 11
 
 - title: "Head Coach Dismissal Impact on Team's Performance"
   description: "An empirical statistical study evaluating the causal impact of head coach replacements on sports team performance. Investigates whether structural improvements occur post-dismissal or if observed performance changes are driven by **regression to the mean**."
@@ -173,7 +186,6 @@
     - R
     - Python
   code: "https://github.com/mathisdrn/head_coach_dismissal"
-  index: 12
 
 - title: "Parametric & Non-Parametric Classification Benchmarks"
   description: "A comprehensive analysis and clean-room implementation of binary classification algorithms, including **KNN** (with Condensed Nearest Neighbor reduction), **SVMs**, and ensemble methods (**AdaBoost**, **Random Forests**). Features custom optimizations handling severe class imbalances."
@@ -187,7 +199,6 @@
     - MyST
   code: "https://github.com/mathisdrn/classification-experiments"
   demo: "https://mathisdrn.github.io/classification-experiments/"
-  index: 13
 
 - title: "Spam Detection Classifier"
   description: "Built a natural language processing classifier to detect spam within French text datasets using **TF-IDF** feature extraction and optimized **Naive Bayes**, **Logistic Regression**, and **SVM** models."
@@ -202,7 +213,6 @@
     - MyST
   code: "https://github.com/mathisdrn/nlp-classification"
   demo: "https://mathisdrn.github.io/nlp-classification/"
-  index: 14
 
 - title: "Manifold Learning & Dimensionality Reduction"
   description: "Implementations and comparative visualizations of manifold learning algorithms (**Isomap**, **LLE**, **t-SNE**) to map high-dimensional geometric datasets into lower-dimensional representations."
@@ -216,7 +226,6 @@
     - scikit-learn
   code: "https://github.com/mathisdrn/manifold-learning"
   demo: "https://mathisdrn.github.io/manifold-learning/"
-  index: 15
 
 - title: "RIMO: Open-Source Data Anonymization Engine"
   subtitle: "CGI France — Internship"
@@ -229,7 +238,6 @@
     - Go
     - Python
   code: "https://github.com/CGI-FR/RIMO"
-  index: 16
 
 - title: "Causal Inference Voucher Distribution System"
   subtitle: "Auto1 Group — Internship"
@@ -243,7 +251,6 @@
     - SQL
     - Python
     - Streamlit
-  index: 17
 
 - title: "Fuel Consumption & Emissions Dashboard"
   description: "An interactive analytical web application and predictive tool forecasting vehicle fuel efficiency and emission rates based on structural and engine features."
@@ -260,4 +267,3 @@
     - scikit-learn
   code: "https://github.com/mathisdrn/Fuel-Consumption-App"
   demo: "https://fuel-consumption-app.streamlit.app/"
-  index: 18

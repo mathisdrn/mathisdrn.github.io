@@ -1,4 +1,4 @@
-<div class="project-card" id="project-{{ article.index }}" data-tags="{{ article.tags | join: ',' }}" data-type="{{ article.type }}">
+<div class="project-card" id="project-{{ id }}" data-tags="{{ article.tags | join: ',' }}" data-type="{{ article.type }}">
 
 	<div class="project-card__top">
 
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 
-		<div class="project-card__description" id="desc-{{ article.index }}">
+		<div class="project-card__description" id="desc-{{ id }}">
 			{{ article.description | markdownify }}
 		</div>
 

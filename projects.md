@@ -34,8 +34,7 @@ jsarr:
 <div class="project-spacer-small"></div>
 
 <div class="project-grid l-middle">
-    {% assign sortedArticles = site.data.articles | sort: "index" %}
-    {% for article in sortedArticles %}
-        {% include project-card.html article=article %}
+    {% for article in site.data.articles %}
+        {% include project-card.html article=article id=forloop.index %}
     {% endfor %}
 </div>

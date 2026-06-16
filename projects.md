@@ -23,7 +23,6 @@ jsarr:
     <button class="project-filter__btn" data-filter-tag="computer vision">Computer Vision</button>
     <button class="project-filter__btn" data-filter-tag="statistics">Statistics</button>
     <button class="project-filter__btn" data-filter-tag="causal inference">Causal Inference</button>
-    <button class="project-filter__btn" data-filter-tag="web development">Web Development</button>
 
     <span class="project-filter__separator"></span>
 

@@ -89,8 +89,8 @@
   demo: "https://mathisdrn.github.io/reinforcement-learning/"
   index: 6
 
-- title: "French Natural Language Inference (NLI) Modeling"
-  description: "Development and evaluation of NLI models to predict semantic relationships between French sentence pairs. Explores encoder fine-tuning (**CamemBERT** via **LoRA**), decoder fine-tuning (**Llama 3** via **LoRA**), and In-Context Learning techniques (**Chain-of-Thought**)."
+- title: "Natural Language Inference Modeling"
+  description: "Development and evaluation of NLI models to predict semantic relationships between sentence pairs. Explores encoder fine-tuning (**CamemBERT** via **LoRA**), decoder fine-tuning (**Llama 3** via **LoRA**), and In-Context Learning techniques (**Chain-of-Thought**)."
   year: 2026
   type: academic
   tags:
@@ -189,7 +189,7 @@
   demo: "https://mathisdrn.github.io/classification-experiments/"
   index: 13
 
-- title: "French Spam Detection Classifier"
+- title: "Spam Detection Classifier"
   description: "Built a natural language processing classifier to detect spam within French text datasets using **TF-IDF** feature extraction and optimized **Naive Bayes**, **Logistic Regression**, and **SVM** models."
   year: 2024
   type: academic
@@ -261,18 +261,3 @@
   code: "https://github.com/mathisdrn/Fuel-Consumption-App"
   demo: "https://fuel-consumption-app.streamlit.app/"
   index: 18
-
-- title: "Cursus"
-  description: "A collaborative, custom-built web application designed for indexing, categorizing, and curating educational video content across economics, politics, and philosophy."
-  year: 2019
-  type: personal
-  tags:
-    - web development
-  technologies:
-    - HTML
-    - CSS
-    - JavaScript
-    - PHP
-    - MySQL
-  code: "https://github.com/mathisdrn/cursus"
-  index: 19

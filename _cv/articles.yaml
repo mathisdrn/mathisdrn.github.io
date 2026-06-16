@@ -1,0 +1,278 @@
+- title: "Orca: A Modern Data Stack Template"
+  description: "A reference implementation and framework for building open-source data warehouses. It provide a comprehensive framework for data ingestion, transformation, modeling, and reporting into an production-ready workflow. Designed for LLM-based agentic workflows, it embeds domain context and structured documentation directly into the platform core."
+  year: 2026
+  type: personal
+  tags:
+    - data engineering
+  technologies:
+    - Dagster
+    - dlt
+    - dbt
+    - DuckDB
+    - Streamlit
+  url: "https://github.com/mathisdrn/orca"
+  index: 1
+
+- title: "Orca Demo: Data Warehouse Implementation"
+  description: "A local data warehouse and predictive ML demo featuring orchestration, ingestion, transformation and an interactive dashboards."
+  year: 2026
+  type: personal
+  tags:
+    - data engineering
+    - machine learning
+  technologies:
+    - Dagster
+    - dlt
+    - dbt
+    - DuckDB
+    - Streamlit
+  code: "https://github.com/mathisdrn/orca-demo"
+  demo: "https://orca-demo-zydyxtqewcsx82b9zddmwn.streamlit.app/"
+  index: 2
+
+- title: "Conformal Prediction"
+  description: "Implementation and benchmarking of conformal prediction techniques across regression, classification, and survival analysis tasks."
+  year: 2026
+  type: academic
+  tags:
+    - machine learning
+    - statistics
+  technologies:
+    - Python
+    - polars
+    - scikit-learn
+    - lifelines
+  code: "https://github.com/mathisdrn/conformal-prediction"
+  demo: "https://mathisdrn.github.io/conformal-prediction/"
+  index: 3
+
+- title: "Billboard Rental Pricing Model"
+  subtitle: "CoSpirit Groupe"
+  description: "Engineered a predictive pricing model for billboard advertisements using historical contract data. Implements **Conformalized Quantile Regression** to provide statistical guarantees on price intervals. Built a spatial feature engineering module using **KD-Trees** and **Gaussian kernel smoothing** to capture localized geographical trends from regression residuals."
+  year: 2025
+  type: professional
+  tags:
+    - machine learning
+    - statistics
+  technologies:
+    - Python
+    - polars
+    - scikit-learn
+  index: 4
+
+- title: "Explainable AI Case Studies"
+  description: "A collection of six case studies demonstrating model interpretability and explainability methods across tabular, vision, NLP, and graph domains."
+  year: 2026
+  type: academic
+  tags:
+    - machine learning
+  technologies:
+    - Python
+    - PyTorch
+    - SHAP
+    - DiCE
+    - Captum
+  code: "https://github.com/mathisdrn/explainable-ai"
+  demo: "https://mathisdrn.github.io/explainable-ai/"
+  index: 5
+
+- title: "Reinforcement Learning for Stochastic Inventory Management"
+  description: "Formulation and resolution of a stochastic inventory control problem. Benchmarks Model-Based Dynamic Programming (**Value Iteration** via Bellman optimality) against Model-Free Reinforcement Learning (**REINFORCE Policy Gradient**) to compute optimal ordering policies."
+  year: 2026
+  type: academic
+  tags:
+    - machine learning
+  technologies:
+    - Python
+    - NumPy
+  code: "https://github.com/mathisdrn/reinforcement-learning"
+  demo: "https://mathisdrn.github.io/reinforcement-learning/"
+  index: 6
+
+- title: "French Natural Language Inference (NLI) Modeling"
+  description: "Development and evaluation of NLI models to predict semantic relationships between French sentence pairs. Explores encoder fine-tuning (**CamemBERT** via **LoRA**), decoder fine-tuning (**Llama 3** via **LoRA**), and In-Context Learning techniques (**Chain-of-Thought**)."
+  year: 2026
+  type: academic
+  tags:
+    - NLP
+    - machine learning
+  technologies:
+    - Python
+    - PyTorch
+    - CamemBERT
+    - Llama 3
+    - LoRA
+  code: "https://github.com/mathisdrn/nlp-representation-learning"
+  demo: "https://mathisdrn.github.io/nlp-representation-learning/"
+  index: 7
+
+- title: "Federated Learning for Medical Diagnosis"
+  description: "A distributed, privacy-preserving Federated Learning system designed for heart disease diagnosis. This project analyzes the impact of client data heterogeneity (**Non-IID** distributions) and benchmarks the stability and convergence of **FedAvg** against **FedProx** algorithms."
+  year: 2026
+  type: academic
+  tags:
+    - machine learning
+  technologies:
+    - Python
+    - PyTorch
+    - Fluke
+  code: "https://github.com/mathisdrn/federated-learning"
+  index: 8
+
+- title: "Computer Vision Billboard Anomaly Classifier"
+  subtitle: "CoSpirit Groupe"
+  description: "Designed and deployed an end-to-end computer vision pipeline to detect structural anomalies, incorrect placements, and degradation on billboards from audit photos. Automates manual physical quality control processes by classifying over 10,000 inspection images annually."
+  year: 2025
+  type: professional
+  tags:
+    - machine learning
+    - computer vision
+  technologies:
+    - Python
+    - PyTorch
+    - OpenCV
+  index: 9
+
+- title: "Non-Local Means Image Denoising"
+  description: "Implementation and performance analysis of the Non-Local Means algorithm for solving image restoration inverse problems."
+  year: 2025
+  type: academic
+  tags:
+    - computer vision
+  technologies:
+    - Python
+    - deepinverse
+    - scikit-image
+  code: "https://github.com/mathisdrn/inverse-problem"
+  demo: "https://mathisdrn.github.io/inverse-problem/"
+  index: 10
+
+- title: "Rennes Data Challenge: Cryptocurrency Forecasting"
+  description: "Developed time-series forecasting architectures to predict cryptocurrency price movements. Designed and benchmarked classical econometric models (**VARMAX**, **SARIMAX**) against machine learning methods (**XGBoost**) and deep learning structures (**LSTMs**, **Auto-encoders**)."
+  year: 2024
+  type: personal
+  tags:
+    - machine learning
+    - statistics
+  technologies:
+    - Python
+    - TensorFlow
+    - XGBoost
+    - skforecast
+  code: "https://github.com/mathisdrn/rennesdatachallenge2024"
+  index: 11
+
+- title: "Head Coach Dismissal Impact on Team's Performance"
+  description: "An empirical statistical study evaluating the causal impact of head coach replacements on sports team performance. Investigates whether structural improvements occur post-dismissal or if observed performance changes are driven by **regression to the mean**."
+  year: 2024
+  type: academic
+  tags:
+    - causal inference
+    - statistics
+  technologies:
+    - R
+    - Python
+  code: "https://github.com/mathisdrn/head_coach_dismissal"
+  index: 12
+
+- title: "Parametric & Non-Parametric Classification Benchmarks"
+  description: "A comprehensive analysis and clean-room implementation of binary classification algorithms, including **KNN** (with Condensed Nearest Neighbor reduction), **SVMs**, and ensemble methods (**AdaBoost**, **Random Forests**). Features custom optimizations handling severe class imbalances."
+  year: 2024
+  type: academic
+  tags:
+    - machine learning
+  technologies:
+    - Python
+    - scikit-learn
+    - MyST
+  code: "https://github.com/mathisdrn/classification-experiments"
+  demo: "https://mathisdrn.github.io/classification-experiments/"
+  index: 13
+
+- title: "French Spam Detection Classifier"
+  description: "Built a natural language processing classifier to detect spam within French text datasets using **TF-IDF** feature extraction and optimized **Naive Bayes**, **Logistic Regression**, and **SVM** models."
+  year: 2024
+  type: academic
+  tags:
+    - NLP
+    - machine learning
+  technologies:
+    - Python
+    - scikit-learn
+    - MyST
+  code: "https://github.com/mathisdrn/nlp-classification"
+  demo: "https://mathisdrn.github.io/nlp-classification/"
+  index: 14
+
+- title: "Manifold Learning & Dimensionality Reduction"
+  description: "Implementations and comparative visualizations of manifold learning algorithms (**Isomap**, **LLE**, **t-SNE**) to map high-dimensional geometric datasets into lower-dimensional representations."
+  year: 2024
+  type: academic
+  tags:
+    - machine learning
+    - data visualization
+  technologies:
+    - Python
+    - scikit-learn
+  code: "https://github.com/mathisdrn/manifold-learning"
+  demo: "https://mathisdrn.github.io/manifold-learning/"
+  index: 15
+
+- title: "RIMO: Open-Source Data Anonymization Engine"
+  subtitle: "CGI France — Internship"
+  description: "Developed RIMO, an open-source tool for high-throughput data anonymization and GDPR compliance within the LINO-PIMO software ecosystem. Engineered a production-ready **Go** engine from an initial Python prototype to optimize performance, concurrent processing, and strict type safety."
+  year: 2023
+  type: professional
+  tags:
+    - data engineering
+  technologies:
+    - Go
+    - Python
+  code: "https://github.com/CGI-FR/RIMO"
+  index: 16
+
+- title: "Causal Inference Voucher Distribution System"
+  subtitle: "Auto1 Group — Internship"
+  description: "Built an end-to-end voucher targeting system to re-engage inactive users. Leveraged SQL for large-scale data extraction and **Propensity Score Matching (PSM)** to control for confounding selection bias, establishing the true causal impact and ROI of retention campaigns on downstream sales."
+  year: 2023
+  type: professional
+  tags:
+    - causal inference
+    - data visualization
+  technologies:
+    - SQL
+    - Python
+    - Streamlit
+  index: 17
+
+- title: "Fuel Consumption & Emissions Dashboard"
+  description: "An interactive analytical web application and predictive tool forecasting vehicle fuel efficiency and emission rates based on structural and engine features."
+  year: 2022
+  type: personal
+  tags:
+    - machine learning
+    - data visualization
+  technologies:
+    - Python
+    - Streamlit
+    - polars
+    - Altair
+    - scikit-learn
+  code: "https://github.com/mathisdrn/Fuel-Consumption-App"
+  demo: "https://fuel-consumption-app.streamlit.app/"
+  index: 18
+
+- title: "Cursus"
+  description: "A collaborative, custom-built web application designed for indexing, categorizing, and curating educational video content across economics, politics, and philosophy."
+  year: 2019
+  type: personal
+  tags:
+    - web development
+  technologies:
+    - HTML
+    - CSS
+    - JavaScript
+    - PHP
+    - MySQL
+  code: "https://github.com/mathisdrn/cursus"
+  index: 19

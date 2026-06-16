@@ -1,0 +1,135 @@
+# :schema https://raw.githubusercontent.com/xrsl/nabcv/v0.1.0/schema/schema.json
+
+[cv]
+name     = "Mathis Derenne"
+headline = "Data Analytics, Engineering & Machine Learning"
+# location = "Lyon, France (Relocating to Berlin)"
+# keywords = ["data science", "data engineering", "machine learning", "business intelligence"]
+email    = "mathis.derenne@gmail.com"
+
+summary = """
+Experienced in building data products that support decision-making through scalable engineering, predictive modeling, and analytics. 
+#v(0pt)
+Relocating to Berlin and available from late September 2026. I am seeking English-speaking roles in Data Analysis, Engineering, or Data Science.
+#v(8pt)
+"""
+
+[[cv.profiles]]
+network  = "LinkedIn"
+username = "mathis-derenne"
+
+[[cv.profiles]]
+network  = "GitHub"
+username = "mathisdrn"
+
+[[cv.profiles]]
+network  = "Website"
+username = "mathisdrn.github.io"
+
+[[cv.skills]]
+group = "Programming Languages"
+items = ["Python, SQL, R, Go, DAX"]
+
+[[cv.skills]]
+group = "Data Engineering"
+items = ["• dbt, Dagster, dlt, SQLAlchemy", "• Dimensional Modeling Principles"]
+
+[[cv.skills]]
+group = "BI & Data Apps"
+items = ["Power BI, Streamlit, Marimo, Altair"]
+
+[[cv.skills]]
+group = "Data Science & ML"
+items = ["Polars, Pandas, Scikit-Learn, PyTorch"]
+
+[[cv.skills]]
+group = "DevOps & Tooling"
+items = ["Git, CI/CD, Dev Containers, Linux"]
+
+[[cv.skills]]
+group = "Languages"
+items = [
+  "French (Native)",
+  "English (Fluent)",
+  "German (Actively learning)"
+]
+
+[[cv.projects]]
+title       = "Orca-demo — #link(\"https://github.com/mathisdrn/orca-demo\")[code]"
+description = "A data warehouse implementation featuring ingestion, transformation, orchestration and reporting."
+
+[[cv.projects]]
+title       = "Orca — #link(\"https://github.com/mathisdrn/orca\")[code]"
+description = "A template helping data team setup an agentic-ready data warehouse."
+
+[[cv.projects]]
+title       = "Conformal Prediction — #link(\"https://mathisdrn.github.io/conformal-prediction/\")[demo]"
+description = "Explores, implements, and benchmarks conformal prediction techniques applied to regression and classification tasks."
+
+[[cv.experience]]
+company    = "CoSpirit"
+position   = "Data Engineer & Scientist (Apprenticeship)"
+summary    = "Data Engineering, BI & Data Science"
+location   = "Lyon, France"
+start_date = "2024-09"
+end_date   = "present"
+highlights = [
+  "*Data Engineering*: Designed ELT pipelines and dimensional models to warehouse multi-channel marketing data; developed Power BI datasets to enable cross-media performance analysis. _Tools: Microsoft SSIS (ETL), SQL Server, Git_",
+  "*Business Intelligence*: Designed and deployed 20+ interactive Power BI dashboards enabling media experts to optimize ad spend and clients to track their ad campaigns. _Tools: PowerBI, DAX, PowerQuery_",
+  "*Machine Learning*: Built a spatial billboard rental pricing model combining conformalized quantile regression with spatial feature engineering (Gaussian kernels, KD-Trees), empowered sales teams with uncertainty-quantified predictions to optimize cost negotiations with media owners."
+]
+
+[[cv.experience]]
+company    = "CGI"
+position   = "Software Engineer (Internship)"
+summary    = "Open-Source Data Anonymization"
+location   = "Nantes, France"
+start_date = "2023-06"
+end_date   = "2023-08"
+highlights = [
+  "Developed an open-source tool for data anonymization and GDPR compliance. _Tools: Python, Golang_",
+]
+
+[[cv.experience]]
+company    = "Auto1"
+position   = "Business Analyst (Internship)"
+summary    = "Causal Inference & Automation"
+location   = "Berlin, Germany"
+start_date = "2022-06"
+end_date   = "2022-07"
+highlights = [
+  "Designed a #text(weight:500)[voucher distribution system] for inactive customer reactivation.",
+  "Applied #text(weight:500)[causal inference] to estimate voucher impact on reactivation and #text(weight:500)[predictive modeling] to predict post-reactivation customer value.",
+  "Developed an interactive Streamlit dashboard."
+]
+
+[[cv.education]]
+company    = "Master's Degree in MIASHS"
+summary    = "Université de Lyon"
+location   = "Lyon, France"
+start_date = "2024-09"
+end_date   = "present"
+highlights = [
+  "*Machine Learning & Statistics*: Supervised, Unsupervised, Deep Learning, Time Series, Survival Analysis, NLP, XAI, Signal Processing, Conformal Prediction, Bayesian Inference, Multi-Armed Bandit, Inverse Problems, Operational Research.",
+  "*Data Engineering*: SQL and Database Management, Google Cloud Platform, RAG. #v(2pt)",
+]
+
+[[cv.education]]
+company    = "Bachelor's Degree in MIASHS"
+summary    = "Université de Rennes"
+location   = "Rennes, France"
+start_date = "2021-09"
+end_date   = "2024-05"
+highlights = [
+  "Linear Models, Econometrics, Inferential Statistics, and Optimization"
+]
+
+[[cv.education]]
+company    = "International Exchange Year in India  🇮🇳"
+# summary    = "The Millennium School"
+# location   = "Surat, India"
+start_date = "2018-08"
+end_date   = "2019-05"
+highlights = [
+  "12th Grade student in Humanities section. Engaged in community volunteering.",
+]

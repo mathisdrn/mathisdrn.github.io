@@ -21,7 +21,7 @@ title: Home
 	</div>
 	<!-- <hr class="l-middle home-hr"> -->
 	<div id="everything-else" class="l-middle">
-		<a href="{{ site.baseurl }}/cv.pdf"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
+		<a href="{{ site.baseurl }}/CV%20-%20Mathis%20Derenne.pdf"><div><i class="fa fa-portrait icon icon-right-space"></i>CV</div></a>
 		<a href="{{ site.baseurl }}/projects"><div><i class="fa fa-shapes icon icon-right-space"></i>Projects</div></a>
 		<a href="{{ site.baseurl }}/about-me"><div><i class="fa fa-user icon icon-right-space"></i>About me</div></a>
 	</div>

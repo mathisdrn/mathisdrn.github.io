@@ -33,7 +33,7 @@
   description: CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "/cv.pdf"
+  url: "/CV%20-%20Mathis%20Derenne.pdf"
   on-homepage: false
   cv-group: 2
 

@@ -217,12 +217,11 @@
 
 // More button — inline with text
 .project-card__more-btn {
-  display: none;
   background: none;
   border: none;
   color: $blue;
-  font-size: 0.85rem; /* Match parent text size */
-  font-weight: 600; /* Slightly bolder to stand out */
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
   padding: 0;
   margin-left: 0.25rem;
@@ -369,12 +368,6 @@
 // ============================
 // Responsive
 // ============================
-
-@media screen and (max-width: $homepage-pre-mobile) {
-  .project-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
 @media (max-width: $mobile) {
   .project-grid {

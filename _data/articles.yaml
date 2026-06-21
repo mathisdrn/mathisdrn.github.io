@@ -1,6 +1,7 @@
 - title: "Orca: A Modern Data Stack Template"
   description: "A reference implementation and framework for building open-source data warehouses. It provide a comprehensive framework for data ingestion, transformation, modeling, and reporting into an production-ready workflow. Designed for LLM-based agentic workflows, it embeds domain context and structured documentation directly into the platform core."
   year: 2026
+  starred: true
   type: personal
   tags:
     - data engineering
@@ -15,6 +16,7 @@
 - title: "Orca Demo: Data Warehouse Implementation"
   description: "A local data warehouse and predictive ML demo featuring orchestration, ingestion, transformation and an interactive dashboards."
   year: 2026
+  starred: true
   type: personal
   tags:
     - data engineering
@@ -31,6 +33,7 @@
 - title: "Conformal Prediction"
   description: "Implementation and benchmarking of conformal prediction techniques across regression, classification, and survival analysis tasks."
   year: 2026
+  starred: true
   type: academic
   tags:
     - machine learning
@@ -47,6 +50,7 @@
   subtitle: "CoSpirit Groupe"
   description: "Engineered a predictive pricing model for billboard advertisements using historical contract data. Implements **Conformalized Quantile Regression** to provide statistical guarantees on price intervals. Built a spatial feature engineering module using **KD-Trees** and **Gaussian kernel smoothing** to capture localized geographical trends from regression residuals."
   year: 2025
+  starred: true
   type: professional
   tags:
     - machine learning
@@ -243,6 +247,7 @@
   subtitle: "Auto1 Group — Internship"
   description: "Built an end-to-end voucher targeting system to re-engage inactive users. Leveraged SQL for large-scale data extraction and **Propensity Score Matching (PSM)** to control for confounding selection bias, establishing the true causal impact and ROI of retention campaigns on downstream sales."
   year: 2023
+  starred: true
   type: professional
   tags:
     - causal inference

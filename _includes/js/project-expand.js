@@ -151,6 +151,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // ============================
   let activeTagFilter = null;
   let activeTypeFilter = null;
+  let activeStarredFilter = false;
   const cards = document.querySelectorAll('.project-card');
   const filterBtns = document.querySelectorAll('.project-filter__btn');
 
@@ -158,11 +159,13 @@ document.addEventListener('DOMContentLoaded', function () {
     cards.forEach(function (card) {
       const cardTags = (card.getAttribute('data-tags') || '').split(',').filter(Boolean);
       const cardType = card.getAttribute('data-type') || '';
+      const cardStarred = card.getAttribute('data-starred') === 'true';
 
       const tagMatch = !activeTagFilter || cardTags.indexOf(activeTagFilter) !== -1;
       const typeMatch = !activeTypeFilter || cardType === activeTypeFilter;
+      const starredMatch = !activeStarredFilter || cardStarred;
 
-      if (tagMatch && typeMatch) {
+      if (tagMatch && typeMatch && starredMatch) {
         card.classList.remove('hidden');
       } else {
         card.classList.add('hidden');
@@ -176,12 +179,14 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function () {
       const filterTag = btn.getAttribute('data-filter-tag');
       const filterType = btn.getAttribute('data-filter-type');
+      const filterStarred = btn.getAttribute('data-filter-starred');
       const isAll = btn.getAttribute('data-filter-all');
       const allBtn = document.querySelector('[data-filter-all]');
 
       if (isAll) {
         activeTagFilter = null;
         activeTypeFilter = null;
+        activeStarredFilter = false;
         filterBtns.forEach(function (b) { b.classList.remove('active'); });
         btn.classList.add('active');
       } else if (filterTag) {
@@ -194,7 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (activeTagFilter === filterTag) {
           activeTagFilter = null;
           btn.classList.remove('active');
-          if (!activeTypeFilter && allBtn) allBtn.classList.add('active');
+          if (!activeTypeFilter && !activeStarredFilter && allBtn) allBtn.classList.add('active');
         } else {
           activeTagFilter = filterTag;
           btn.classList.add('active');
@@ -209,9 +214,20 @@ document.addEventListener('DOMContentLoaded', function () {
         if (activeTypeFilter === filterType) {
           activeTypeFilter = null;
           btn.classList.remove('active');
-          if (!activeTagFilter && allBtn) allBtn.classList.add('active');
+          if (!activeTagFilter && !activeStarredFilter && allBtn) allBtn.classList.add('active');
         } else {
           activeTypeFilter = filterType;
+          btn.classList.add('active');
+        }
+      } else if (filterStarred) {
+        if (allBtn) allBtn.classList.remove('active');
+
+        if (activeStarredFilter) {
+          activeStarredFilter = false;
+          btn.classList.remove('active');
+          if (!activeTagFilter && !activeTypeFilter && allBtn) allBtn.classList.add('active');
+        } else {
+          activeStarredFilter = true;
           btn.classList.add('active');
         }
       }

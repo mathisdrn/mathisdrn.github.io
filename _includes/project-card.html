@@ -1,4 +1,4 @@
-<div class="project-card" id="project-{{ include.id }}" data-tags="{{ article.tags | join: ',' }}" data-type="{{ article.type }}">
+<div class="project-card" id="project-{{ include.id }}" data-tags="{{ article.tags | join: ',' }}" data-type="{{ article.type }}" data-starred="{% if article.starred %}true{% else %}false{% endif %}">
 
 	<div class="project-card__top">
 
@@ -16,7 +16,14 @@
 				{% endif %}
 			</div>
 			<div class="project-card__meta">
-				<span class="project-card__year">{{ article.year }}</span>
+				<div class="project-card__meta-year-row">
+					{% if article.starred %}
+						<span class="project-card__star-pill">
+							<i class="fas fa-star" aria-hidden="true"></i>
+						</span>
+					{% endif %}
+					<span class="project-card__year">{{ article.year }}</span>
+				</div>
 				<span class="project-card__type project-card__type--{{ article.type }}">
 					{% if article.type == 'professional' %}
 						<i class="fas fa-briefcase" aria-hidden="true"></i>

@@ -26,6 +26,10 @@ jsarr:
 
     <span class="project-filter__separator"></span>
 
+    <button class="project-filter__btn" data-filter-starred="true"><i class="fas fa-star" style="color: #ffb700;"></i> Starred</button>
+
+    <span class="project-filter__separator"></span>
+
     <button class="project-filter__btn" data-filter-type="personal"><i class="fas fa-user"></i> Personal</button>
     <button class="project-filter__btn" data-filter-type="academic"><i class="fas fa-graduation-cap"></i> Academic</button>
     <button class="project-filter__btn" data-filter-type="professional"><i class="fas fa-briefcase"></i> Professional</button>

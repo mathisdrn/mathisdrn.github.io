@@ -144,6 +144,12 @@
   gap: 0.3rem;
 }
 
+.project-card__meta-year-row {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .project-card__year {
   font-size: 0.75rem;
   font-weight: 600;
@@ -151,6 +157,17 @@
   background-color: $black-05;
   border-radius: 0.5rem;
   padding: 0.1rem 0.45rem;
+}
+
+.project-card__star-pill {
+  font-size: 0.75rem;
+  color: $gold;
+  background-color: rgba(255, 183, 0, 0.12);
+  border-radius: 0.5rem;
+  padding: 0.1rem 0.45rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-card__type {

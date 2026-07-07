@@ -55,16 +55,12 @@ items = [
 ]
 
 [[cv.projects]]
-title       = "Orca-demo — #link(\"https://github.com/mathisdrn/orca-demo\")[code]"
-description = "A data warehouse implementation featuring ingestion, transformation, orchestration and reporting."
+title       = "Orca"
+description = "A modern and complete data warehouse implementation. It runs in the cloud weekly, orchestrating API extractions, data transformations, and semantic layer modeling and interactive dashboard.#h(0.4em)#link(\"https://github.com/mathisdrn/orca\")[#text(weight: \"medium\")[#text(size: 0.8em)[#fa-icon(\"external-link\")]#h(0.2em)see project]]"
 
 [[cv.projects]]
-title       = "Orca — #link(\"https://github.com/mathisdrn/orca\")[code]"
-description = "A template helping data team setup an agentic-ready data warehouse."
-
-[[cv.projects]]
-title       = "Conformal Prediction — #link(\"https://mathisdrn.github.io/conformal-prediction/\")[demo]"
-description = "Explores, implements, and benchmarks conformal prediction techniques applied to regression and classification tasks."
+title       = "Conformal Prediction"
+description = "Explores, implements, and benchmarks conformal prediction techniques applied to regression and classification tasks.#h(0.4em)#link(\"https://mathisdrn.github.io/conformal-prediction/\")[#text(weight: \"medium\")[#text(size: 0.8em)[#fa-icon(\"external-link\")]#h(0.2em)see project]]"
 
 [[cv.experience]]
 company    = "CoSpirit"

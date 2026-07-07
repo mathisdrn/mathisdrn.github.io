@@ -277,7 +277,7 @@
 
   let parse-markup(val) = {
     if type(val) != str { return val }
-    eval("[" + val + "]")
+    eval("[" + val + "]", scope: (fa-icon: fa-icon))
   }
 
   let format-date(start, end) = {

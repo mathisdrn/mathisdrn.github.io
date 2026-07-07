@@ -1,34 +1,19 @@
-- title: "Orca: A Modern Data Stack Template"
-  description: "A reference implementation and framework for building open-source data warehouses. It provide a comprehensive framework for data ingestion, transformation, modeling, and reporting into an production-ready workflow. Designed for LLM-based agentic workflows, it embeds domain context and structured documentation directly into the platform core."
+- title: "Orca: A data warehouse implementation"
+  description: "Orca is a data warehouse implementation around HackerNews data. It runs weekly in the cloud, extract data from API, transform the data, define a semantic model and provides interactive dashboard to answer analytical questions."
   year: 2026
   starred: true
   type: personal
   tags:
     - data engineering
+    - data visualization
   technologies:
     - Dagster
     - dlt
     - dbt
     - DuckDB
+    - Malloy
     - Streamlit
   url: "https://github.com/mathisdrn/orca"
-
-- title: "Orca Demo: Data Warehouse Implementation"
-  description: "A local data warehouse and predictive ML demo featuring orchestration, ingestion, transformation and an interactive dashboards."
-  year: 2026
-  starred: true
-  type: personal
-  tags:
-    - data engineering
-    - machine learning
-  technologies:
-    - Dagster
-    - dlt
-    - dbt
-    - DuckDB
-    - Streamlit
-  code: "https://github.com/mathisdrn/orca-demo"
-  demo: "https://orca-demo-zydyxtqewcsx82b9zddmwn.streamlit.app/"
 
 - title: "Conformal Prediction"
   description: "Implementation and benchmarking of conformal prediction techniques across regression, classification, and survival analysis tasks."
